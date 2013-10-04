@@ -1,0 +1,18 @@
+<svg version="1.1" viewBox="-1 -1 100 100">
+{{#each plots}}
+  <g plot="{{@index}}" transform="translate({{this.x}},{{this.y}})" twin="{{twin}}" class="{{class}}">
+      <rect width="{{../chordSize}}" height="{{../chordSize}}" />
+      {{#isPlot class}}{{/isPlot}}
+  </g>
+{{/each}}
+
+{{#each plots}}
+  {{setFrom @index}}
+  {{#each flows}}
+  <g flow="{{../from}}" from="{{../from}}" to="{{this.to}}" class="flow">
+      <line x1="{{this.x1}}" y1="{{this.y1}}" x2="{{this.x2}}" y2="{{this.y2}}" />
+      <ellipse rx="1.25" ry="1.25" cx="{{this.x2}}" cy="{{this.y2}}" />
+  </g>
+  {{/each}}
+{{/each}}
+</svg>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chordinator</title>
+  <meta name="description" content="Guitar Chord Comdinations" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <script type="text/javascript"></script>
+  <!-- <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Russo+One"> -->
+  <link rel="stylesheet/less" type="text/css" href="styles/styles.less">
+
+  <script>
+    // var _gaq = _gaq || [];
+    // _gaq.push(['_setAccount', 'xxx']);
+    // _gaq.push(['_trackPageview']);
+
+    // _gaq.push(['b._setAccount', 'xxx']);
+    // _gaq.push(['b._trackPageview']);
+
+    // function trackPageView(page) {
+    //     _gaq.push(['_trackPageview' , page]);
+    //     _gaq.push(['b._trackPageview', page]);
+    // }
+    </script>
+    <script src="scripts/libs/head/head.min.js"></script>
+  </head>
+  <body>
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div id="Layout">
+    <div class="Pane">
+      <nav>
+        <a href="#Chordynator">Chordynator</a>
+        <a href="#Wordynator">Wordynator</a>
+        <a href="#Tabynator">Tabynator</a>
+        <a href="#Footer">Footer</a>
+      </nav>
+    </div>
+    <div class="Pane">
+      <section id="Chordynator" class="neutral"></section>
+    </div>
+    <div class="Pane">
+      <section id="Wordynator" class="green">Wordynator</section>
+    </div>
+    <div class="Pane">
+      <section id="Tabynator" class="blue">Tabynator</section>
+    </div>
+    <div class="Pane">
+    <footer id="Footer" class="grey">
+      Footer
+    </footer>
+  </div>
+  </div>
+
+  <script>
+  head.js(  "scripts/libs/zepto/zepto.min.js",
+    "scripts/libs/handlebars/handlebars.js",
+    "scripts/libs/handlebars/helpers.js",
+    "scripts/libs/handlebars/load.js",
+    "scripts/helpers/util/util.js",
+    "scripts/helpers/util/url.js",
+    "scripts/services/Layout/layout.js",
+    "scripts/apps/Chordynator/chordynator.js",
+    "scripts/apps/Chordynator/map.js",
+    "scripts/apps/Chordynator/map.layout.js",
+    "scripts/apps/Chordynator/events.js",
+    "scripts/apps/Chordynator/key.js",
+    "scripts/apps/Chordynator/key.mapping.js",
+    "scripts/apps/Chordynator/key.util.js",
+    "scripts/apps/Chordynator/tab.js",
+    "scripts/apps/Wordynator/wordynator.js",
+    "scripts/apps/Tabynator/tabynator.js",
+    "scripts/services/Session/session.js",
+    "scripts/api.js",
+    "scripts/libs/less/less-1.4.1.min.js",
+    function() {
+      API.load();
+      API.debug();
+    }); 
+  </script>
+</body>
+</html>

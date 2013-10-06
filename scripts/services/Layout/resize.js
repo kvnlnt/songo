@@ -1,4 +1,4 @@
-Layout.Resize = (function (module) {
+Layout.Resize = (function (me) {
 
     var t = null; 
 
@@ -11,6 +11,6 @@ Layout.Resize = (function (module) {
         t = setTimeout(API.reload,100);
     }
 
-    return module;
+    return me;
 
 }(Layout.Resize || {})); // Layout

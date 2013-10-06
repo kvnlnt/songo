@@ -1,13 +1,13 @@
-var Layout = (function (module) {
+var Layout = (function (me) {
 
     function getPixelRatio(){
         return window.devicePixelRatio !== undefined ? 1 : window.devicePixelRatio;
     }
 
     // exports
-    module.getPixelRatio = getPixelRatio
+    me.getPixelRatio = getPixelRatio
 
-    return module;
+    return me;
 
 }(Layout || {})); // Layout
 

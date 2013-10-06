@@ -1,4 +1,4 @@
-Handlebars.load = function (template_location, target, json, event){
+Handlebars.load = function (template_location, target, json, callback){
 
         // ajax load each template and compile
         $.ajax({
@@ -10,7 +10,7 @@ Handlebars.load = function (template_location, target, json, event){
                 var compile = Handlebars.compile(template); 
                 var html = compile(json);
                 this.html(html);
-                $(window).trigger(event);
+                if (typeof callback === 'function') callback();
             }
         })
 

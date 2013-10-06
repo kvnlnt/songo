@@ -6,53 +6,63 @@
 
 #Chordynator .Map {
 
-    /* Generic */
+    /* DEFAULTS */
     background-color: @base;
 
     rect {
         fill:@base;
-        stroke:@secondary;
-        stroke-width:1;
+        stroke:@primaryB;
+        stroke-width:0.55;
         cursor: pointer;
         .border-radius(5px);
     }
 
-    line { stroke:@secondary;  stroke-width:1; }
-    ellipse { fill:@secondary; }
+    line { stroke:@primaryB;  stroke-width:0.55; }
+    ellipse { fill:@primaryB; }
 
     text {
         pointer-events: none;
-        fill:@secondary;
         text-anchor:middle;
-        font-family: "Russo One";
+        font-family: 'Quantico'
     }
 
-    text.name { font-size:0.45rem; }
-    text.type { font-size:0.25rem; }
+    text.name { font-size:0.45rem; fill:@primaryC; letter-spacing: -0.13rem; }
+    text.type { font-size:0.20rem; fill:@primaryB; }
 
-        
-    /* corners */
-    g.logo, g.new, g.option, g.tertiery {}
+    /* BUTTONS */
+    .options, .new, .types, .tertieries {
+        text.name {
+            font-size: 0.30rem; 
+            text-transform: uppercase; 
+            letter-spacing: 0rem;
+        }
+    }
 
+/*&#9837; will show as: ♭
+&#9838; will show as: ♮
+&#9839; will show as: ♯*/
+
+    
     /* Plots * Flows */
     g.plot, g.flow {
 
-        &:hover rect { stroke:@accent; }
-        &:hover text{ fill:@accent; }
+        &:hover rect { stroke:@secondaryB; }
+        &:hover text{ fill:@primaryC; }
 
         &.selected {
 
-            rect { fill:@accent; stroke:@accent; }
-            text { fill:@primary; }
+            rect { stroke:@secondaryB; .box-shadow(); }
+            text.name { fill:@accentB; }
+            text.type { fill:@primaryC; }
 
         } /* selected */
 
         &.active {
 
-            rect { stroke:@accent; }
-            line { stroke:@accent; }
-            ellipse { fill:@accent; }
-            text {fill:@accent; }
+            rect { stroke:@secondaryB; }
+            line { stroke:@secondaryB; }
+            ellipse { fill:@secondaryB; }
+            text {fill:@primaryC; }
 
         } /* active */
 

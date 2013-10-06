@@ -1,14 +1,13 @@
 Chordynator.Events = (function(me){
 
     // Register Events
-    var mapReady = "Chordynator:mapReady";
+    //var e = "event";
 
     // Register Listeners
-    $(window).on(mapReady, Chordynator.Map.config);
+    //$(window).on(e, ---);
 
     // exports
-    me.mapReady = mapReady;
-
+    
     return me; 
 
 }(Chordynator.Events || {}));

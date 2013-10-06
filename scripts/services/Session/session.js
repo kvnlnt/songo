@@ -1,20 +1,20 @@
-var Session = (function(module){
+var Session = (function(me){
 
     var id = 0;
     var name = 'test user';
     var email = 'test@user.com';
     var chordinator = {
-            maps:["C","D#"],
-            tabs:["C", "D", "E"]
+            maps:["C","Db"],
+            tabs:["C"]
         };
 
     // exports
-    module.id = id;
-    module.name = name;
-    module.email = email;
-    module.chordinator = chordinator;
+    me.id = id;
+    me.name = name;
+    me.email = email;
+    me.chordinator = chordinator;
 
     // return object
-    return module;
+    return me;
 
 }(Session || {}));

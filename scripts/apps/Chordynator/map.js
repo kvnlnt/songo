@@ -15,14 +15,20 @@ Chordynator.Map = (function(me){
 
     }
 
-    // config map after template has been loaded
+    // config map 
     function config(){
 
-        // config plots
-        $(".plot").on('click', plotClicked);
-
-        // config
+        // Load data
         loadMapData(); // configure each map
+
+        // add events
+        $(".plot").on('click', plotClicked);
+        $(".options").on('click', Chordynator.Forms.loadForm('options.handlebars'));
+        $(".types").on('click', Chordynator.Forms.loadForm('types.handlebars'));
+        $(".tertieries").on('click', Chordynator.Forms.loadForm('tertieries.handlebars'));
+        $(".new").on('click', Chordynator.Forms.loadForm('new.handlebars'));
+
+
     }
 
     function loadMapTemplates(){
@@ -37,7 +43,7 @@ Chordynator.Map = (function(me){
         var template = 'scripts/apps/Chordynator/templates/map.handlebars';
 
         // load template
-        Handlebars.load(template, targets, layout, Chordynator.Events.mapReady);
+        Handlebars.load(template, targets, layout, config);
 
     }
 
@@ -72,7 +78,7 @@ Chordynator.Map = (function(me){
                 for(var j in mappings.primary_chords[i]){
                     id = mappings.primary_chords[i][j];
                     plot = $(Map).find('g[plot="'+id+'"]');
-                    plot.children(".name").text(Chordynator.Key.normalize(chord.name));
+                    plot.children(".name").text(Chordynator.Key.charUnicode(Chordynator.Key.normalize(chord.name)));
                     plot.children(".type").text(chord.type );
                 }
 
@@ -86,7 +92,7 @@ Chordynator.Map = (function(me){
                 for(var j in mappings.secondary_chords[i]){
                     id = mappings.secondary_chords[i][j];
                     plot = $(Map).find('g[plot="'+id+'"]');
-                    plot.children(".name").text(Chordynator.Key.normalize(chord.name));
+                    plot.children(".name").text(Chordynator.Key.charUnicode(Chordynator.Key.normalize(chord.name)));
                     plot.children(".type").text(chord.type );
                 }
                 
@@ -95,10 +101,10 @@ Chordynator.Map = (function(me){
             // TODO
 
             // options
-            Options.children(".name").text('Opt');
+            Options.children(".name").text('OPT');
 
             // new
-            New.children('.name').text('New');
+            New.children('.name').text('NEW');
 
             // types
             Types.children('.name').text('M');
@@ -114,6 +120,9 @@ Chordynator.Map = (function(me){
 
         // get all tabs
         var tabs = Session.chordinator.tabs;
+
+        // Add tab preview
+        Chordynator.Dom.append('<div class="Tab TabPreview">Preview</div>');
 
         // attach containers to doms
         for(tab in tabs){ Chordynator.Dom.append('<div class="Tab">Tab</div>'); }
@@ -153,7 +162,6 @@ Chordynator.Map = (function(me){
 
     // exports
     me.load = load;
-    me.config = config;
     me.reload = reload;
     me.plotClicked = plotClicked;
 

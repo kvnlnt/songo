@@ -1,5 +1,16 @@
 Chordynator.Key = (function(me){
 
+    function charUnicode(note){
+        var note = typeof note == 'undefined' ? '' : note;
+        var match = note.match('x|#|b');
+        if(match){
+            return note.replace("b","♭").replace("#","♯");
+        } else {
+            return note;
+        }
+        
+    }
+
     function normalizeDoubleSharp(note){
 
         var name = note.charAt(0);
@@ -34,6 +45,7 @@ Chordynator.Key = (function(me){
 
     // "normalize note"...translate it from double sharp or double flat
     function normalize(note){
+        //var note = charUnicode(note);
         var match = note.match('x|##|bb');
         if(!match){
             return note;
@@ -102,6 +114,7 @@ Chordynator.Key = (function(me){
     me.sharpenNote = sharpenNote;
     me.flattenNote = flattenNote;
     me.normalize = normalize;
+    me.charUnicode = charUnicode;
 
     // return object
     return me;

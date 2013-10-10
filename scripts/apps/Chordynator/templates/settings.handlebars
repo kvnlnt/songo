@@ -1,8 +1,10 @@
-<form name="newForm" type="{{type}}">
+<form name="settingsForm" type="{{type}}">
     <a class="close">x</a>
-    <h2>New Map</h2>
-    <label for="key">Pick a Key</label>
-    <select name="key">
+    <h2>Settings</h2>
+    <input type="hidden" name="index" value="{{index}}"/>
+    <input type="hidden" name="key" value="{{key}}"/>
+    <label for="newkey">Change Key</label>
+    <select name="newkey">
 
         <option value="C">C major</option>
         <option value="C#">C# major</option>
@@ -24,6 +26,8 @@
 
     </select>
 
-    <input type="button" class="formSubmit" value="save" onclick="Chordynator.Map.Forms.submitNew({{index}})">
+    <input type="button" class="formSubmit" value="save" onclick="Chordynator.Map.Forms.saveSettings({{index}}, '{{key}}')">
+    <input type="button" class="formSubmit" value="copy" onclick="Chordynator.Map.Forms.copyMap({{index}})">
+    <input type="button" class="formSubmit" value="remove" onclick="Chordynator.Map.Forms.deleteMap({{index}})">
 
 </form>

@@ -20,30 +20,16 @@
     line { stroke:@primaryB;  stroke-width:0.55; }
     ellipse { fill:@primaryB; }
 
-    text {
+    text, image {
         pointer-events: none;
         text-anchor:middle;
-        font-family: 'Quantico'
+        font-family: 'Quantico';
     }
 
     text.name { font-size:0.45rem; fill:@primaryC; letter-spacing: -0.13rem; }
     text.type { font-size:0.20rem; fill:@primaryB; }
 
-    /* BUTTONS */
-    .options, .new, .types, .tertieries {
-        text.name {
-            font-size: 0.30rem; 
-            text-transform: uppercase; 
-            letter-spacing: 0rem;
-        }
-    }
-
-/*&#9837; will show as: ♭
-&#9838; will show as: ♮
-&#9839; will show as: ♯*/
-
-    
-    /* Plots * Flows */
+    /* PLOTS & FLOWS */
     g.plot, g.flow {
 
         &:hover rect { stroke:@secondaryB; }
@@ -67,7 +53,7 @@
         } /* active */
 
     } /* g */
-   
 
+    
 }
 

@@ -7,7 +7,7 @@ Chordynator.Map = (function(me){
 
         // get data
         layout = me.getMapLayout();
-        maps = Session.chordinator.maps;
+        maps = Session.chordynator.maps;
 
         // load gui first
         loadMapTemplates(); // Load Maps from Session
@@ -22,12 +22,14 @@ Chordynator.Map = (function(me){
         loadMapData(); // configure each map
 
         // add events
-        $(".plot").on('click', plotClicked);
-        $(".options").on('click', Chordynator.Forms.loadForm('options.handlebars'));
-        $(".types").on('click', Chordynator.Forms.loadForm('types.handlebars'));
-        $(".tertieries").on('click', Chordynator.Forms.loadForm('tertieries.handlebars'));
-        $(".new").on('click', Chordynator.Forms.loadForm('new.handlebars'));
+        $(".plot").live('click', plotClicked);
+        $(".settings").live('click', Chordynator.Map.Forms.load('settings'));
+        $(".types").live('click', Chordynator.Map.Forms.load('types'));
+        $(".tertieries").live('click', Chordynator.Map.Forms.load('tertieries'));
+        $(".new").live('click', Chordynator.Map.Forms.load('new'));
 
+        // default selected
+        $('.Map:first-child .plot[plot="12"]').click();
 
     }
 
@@ -54,7 +56,7 @@ Chordynator.Map = (function(me){
     function loadMapData(){
 
         // set/get params
-        var key, Map, New, Options, Types, Tertieries, chord, plot, ids = null;
+        var key, Map, New, Settings, Types, Tertieries, chord, plot, ids = null;
         var mappings = Chordynator.Key.Mapping;
 
         // TODO load data for each map
@@ -65,7 +67,8 @@ Chordynator.Map = (function(me){
 
             // get map and it's objects
             Map = $(".Map").eq(map);
-            Options = Map.find('.options');
+            Map.attr('key', maps[map]);
+            Settings = Map.find('.settings');
             New = Map.find('.new');
             Types = Map.find('.types');
             Tertieries = Map.find('.tertieries');
@@ -98,20 +101,6 @@ Chordynator.Map = (function(me){
                 
             }
 
-            // TODO
-
-            // options
-            Options.children(".name").text('OPT');
-
-            // new
-            New.children('.name').text('NEW');
-
-            // types
-            Types.children('.name').text('M');
-
-            // tertieries
-            Tertieries.children(".name").text('+');
-
         }
 
     }
@@ -119,7 +108,7 @@ Chordynator.Map = (function(me){
     function loadTabTemplates(){
 
         // get all tabs
-        var tabs = Session.chordinator.tabs;
+        var tabs = Session.chordynator.tabs;
 
         // Add tab preview
         Chordynator.Dom.append('<div class="Tab TabPreview">Preview</div>');
@@ -156,13 +145,22 @@ Chordynator.Map = (function(me){
         flows.addClass('active');
         $(flowToPlots).addClass('active');
 
-    }
+        // Change type selection to plot type
+        if(plot.hasClass('primary')){
+            map.find(".types .name").text(plot.find('.type').text());
+            map.find(".types").addClass('active');
+            map.find(".types image").addClass('unavailable');
+        } else {
+            map.find(".types .name").text('');
+            map.find(".types image").removeClass('unavailable');
+            map.find(".types").removeClass('active');
+        }
 
-    function reload(){}
+    }
 
     // exports
     me.load = load;
-    me.reload = reload;
+    me.loadMapData = loadMapData;
     me.plotClicked = plotClicked;
 
     return me; 

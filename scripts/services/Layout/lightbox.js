@@ -3,7 +3,8 @@ Layout.Lightbox = (function (me) {
     var id = "Lightbox";
     var dom = $("#"+id);
 
-    $("a.close").live('click',hide);
+    $("a.close, .formSubmit").live('click',hide);
+    $("g.settings, g.new, g.types, g.tertieries").live('click', show);
 
     function show(){
         dom.css("display","block");

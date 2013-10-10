@@ -3,16 +3,13 @@ var Session = (function(me){
     var id = 0;
     var name = 'test user';
     var email = 'test@user.com';
-    var chordinator = {
-            maps:["C","Db"],
-            tabs:["C"]
-        };
+    var chordynator = { maps:["C"], tabs:["C"] };
 
     // exports
     me.id = id;
     me.name = name;
     me.email = email;
-    me.chordinator = chordinator;
+    me.chordynator = chordynator;
 
     // return object
     return me;

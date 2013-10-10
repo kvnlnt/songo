@@ -38,28 +38,28 @@ Chordynator.Map = (function(me){
         plots = [
 
             // row 1                                    // col
-            { x:05, y:05, twin:null, flows:flows[00], class:'options' }, // 0
+            { x:05, y:05, twin:null, flows:flows[00], class:'settings' }, // 0
             { x:23, y:05, twin:null, flows:flows[01], class:'plot' }, // 1
             { x:41, y:05, twin:null, flows:flows[02], class:'plot' }, // 2
             { x:59, y:05, twin:null, flows:flows[03], class:'plot' }, // 3
             { x:77, y:05, twin:null, flows:flows[04], class:'new' }, // 4
             // row 2
             { x:05, y:23, twin:null, flows:flows[05], class:'plot' }, // 5  
-            { x:23, y:23, twin:17,   flows:flows[06], class:'plot' }, // 6  
-            { x:41, y:23, twin:16,   flows:flows[07], class:'plot' }, // 7  
-            { x:59, y:23, twin:null, flows:flows[08], class:'plot' }, // 8  
+            { x:23, y:23, twin:17,   flows:flows[06], class:'plot primary' }, // 6  
+            { x:41, y:23, twin:16,   flows:flows[07], class:'plot primary' }, // 7  
+            { x:59, y:23, twin:null, flows:flows[08], class:'plot primary' }, // 8  
             { x:77, y:23, twin:null, flows:flows[09], class:'plot' }, // 9
             // row 3
             { x:05, y:41, twin:null, flows:flows[10], class:'plot' }, // 10 
-            { x:23, y:41, twin:13,   flows:flows[11], class:'plot' }, // 11  
-            { x:41, y:41, twin:null, flows:flows[12], class:'plot' }, // 12  
-            { x:59, y:41, twin:11,   flows:flows[13], class:'plot' }, // 13  
+            { x:23, y:41, twin:13,   flows:flows[11], class:'plot primary' }, // 11  
+            { x:41, y:41, twin:null, flows:flows[12], class:'plot primary' }, // 12  
+            { x:59, y:41, twin:11,   flows:flows[13], class:'plot primary' }, // 13  
             { x:77, y:41, twin:null, flows:flows[14], class:'plot' }, // 14
             // row 4
             { x:05, y:59, twin:null, flows:flows[15], class:'plot' }, // 15 
-            { x:23, y:59, twin:07,   flows:flows[16], class:'plot' }, // 16  
-            { x:41, y:59, twin:06,   flows:flows[17], class:'plot' }, // 17  
-            { x:59, y:59, twin:null, flows:flows[18], class:'plot' }, // 18  
+            { x:23, y:59, twin:07,   flows:flows[16], class:'plot primary' }, // 16  
+            { x:41, y:59, twin:06,   flows:flows[17], class:'plot primary' }, // 17  
+            { x:59, y:59, twin:null, flows:flows[18], class:'plot primary' }, // 18  
             { x:77, y:59, twin:null, flows:flows[19], class:'plot' }, // 19
             // row 5
             { x:05, y:77, twin:null, flows:flows[20], class:'types' }, // 20

@@ -1,0 +1,33 @@
+ #Chordynator .Map {
+
+     /* BUTTONS */
+    g.settings, g.new, g.types, g.tertieries  {
+
+        rect { stroke:@accentA; }
+        &:hover rect { stroke:@accentB; }
+        &:hover text.name { fill:@accentB; }
+
+        text.name {
+
+            font-size: 0.30rem; 
+            text-transform: uppercase; 
+            letter-spacing: 0rem;
+            fill:@accentA;
+
+        }
+
+        &.active {
+
+            text {fill:@primaryC; }
+
+        }
+
+    }
+
+    g.types image.unavailable{
+        display:none;
+    }
+
+}
+
+/* Settings */

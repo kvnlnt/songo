@@ -1,4 +1,4 @@
-Chordynator.Map = (function(me){
+Chordynator.Map = (function(me, events, mediator){
 
     // get layout
     var layout, maps;
@@ -24,9 +24,8 @@ Chordynator.Map = (function(me){
         // add events
         $(".plot").live('click', plotClicked);
         $(".settings").live('click', Chordynator.Map.Forms.load('settings'));
-        $(".types").live('click', Chordynator.Map.Forms.load('types'));
+        $(".options").live('click', advanceType);
         $(".tertieries").live('click', Chordynator.Map.Forms.load('tertieries'));
-        $(".new").live('click', Chordynator.Map.Forms.load('new'));
 
         // default selected
         $('.Map:first-child .plot[plot="12"]').click();
@@ -56,7 +55,7 @@ Chordynator.Map = (function(me){
     function loadMapData(){
 
         // set/get params
-        var key, Map, New, Settings, Types, Tertieries, chord, plot, ids = null;
+        var key, Map, Settings, Options, Tertieries, chord, plot, ids = null;
         var mappings = Chordynator.Key.Mapping;
 
         // TODO load data for each map
@@ -69,34 +68,33 @@ Chordynator.Map = (function(me){
             Map = $(".Map").eq(map);
             Map.attr('key', maps[map]);
             Settings = Map.find('.settings');
-            New = Map.find('.new');
-            Types = Map.find('.types');
+            Options = Map.find('.options');
             Tertieries = Map.find('.tertieries');
 
             // attach primary chords
-            for(var i in mappings.primary_chords) {
-                chord = key.primary_chords[i];
+            for(var i in mappings.chords.primary) {
+                chord = key.chords.primary[i];
 
                 // loop each plot 
-                for(var j in mappings.primary_chords[i]){
-                    id = mappings.primary_chords[i][j];
+                for(var j in mappings.chords.primary[i]){
+                    id = mappings.chords.primary[i][j];
                     plot = $(Map).find('g[plot="'+id+'"]');
                     plot.children(".name").text(Chordynator.Key.charUnicode(Chordynator.Key.normalize(chord.name)));
-                    plot.children(".type").text(chord.type );
+                    plot.children(".type").text(chord.types[0] );
                 }
 
             }
 
            // attach secondary chords
-            for(var i in mappings.secondary_chords) {
-                chord = key.secondary_chords[i];
+            for(var i in mappings.chords.secondary) {
+                chord = key.chords.secondary[i];
 
                 // loop each plot 
-                for(var j in mappings.secondary_chords[i]){
-                    id = mappings.secondary_chords[i][j];
+                for(var j in mappings.chords.secondary[i]){
+                    id = mappings.chords.secondary[i][j];
                     plot = $(Map).find('g[plot="'+id+'"]');
                     plot.children(".name").text(Chordynator.Key.charUnicode(Chordynator.Key.normalize(chord.name)));
-                    plot.children(".type").text(chord.type );
+                    plot.children(".type").text(chord.types[0] );
                 }
                 
             }
@@ -129,6 +127,14 @@ Chordynator.Map = (function(me){
         map.children(".plot").removeClass('selected active');
         map.children(".flow").removeClass('active');
 
+        if(plot.hasClass('tertiery')){
+            if(!plot.find('.name').text().length){
+                $(".tertieries").click();
+            } else {
+                map.find(".plot[plot='"+plot.attr('flowsTo')+"']").addClass('active'); // hack for tertiery plot click
+            }
+        }
+
         // find and collect plot (and twin) flow arrows
         var flows = map.children('.flow[from="'+plot.attr('plot')+'"], .flow[from="'+twin.attr('plot')+'"]');
         
@@ -145,16 +151,44 @@ Chordynator.Map = (function(me){
         flows.addClass('active');
         $(flowToPlots).addClass('active');
 
-        // Change type selection to plot type
-        if(plot.hasClass('primary')){
-            map.find(".types .name").text(plot.find('.type').text());
-            map.find(".types").addClass('active');
-            map.find(".types image").addClass('unavailable');
+        // update options list
+        var options = plot.find(".type").attr('options').split(',');
+        var type = options[0];
+        if(options.length > 1){
+            map.find(".options .name").text(plot.find('.type').text());
+            map.find(".options").addClass('active');
+            map.find(".options image").addClass('unavailable');
         } else {
-            map.find(".types .name").text('');
-            map.find(".types image").removeClass('unavailable');
-            map.find(".types").removeClass('active');
+            map.find(".options .name").text('');
+            map.find(".options image").removeClass('unavailable');
+            map.find(".options").removeClass('active');
         }
+
+        // broadcast event
+        mediator.publish(events.plotClicked, plot, map); //tim, david
+
+    }
+
+    function advanceType(e){
+
+        // get and set type options
+        var plot = $(e.currentTarget); // options button
+        var map = plot.parent("svg"); // current map
+        var type = map.find('g.selected .type'); // selected type el
+        var options = type.attr('options').split(','); // it's options list
+        if(options.length <= 1) return false;
+        var shiftOptions = options.concat(options.splice(0,1)); // shift array left, attach popped val to end
+        var new_type = shiftOptions[0]; // get new val (fitem)
+        var new_options = shiftOptions.join(','); // create new list of shifted array
+        
+         // set options list with shifted list
+        type.attr('options', new_options);
+
+        // update selected chord plot
+        type.text(new_type);
+
+        // update options plot
+        plot.find('.name').text(new_type);
 
     }
 
@@ -165,4 +199,4 @@ Chordynator.Map = (function(me){
 
     return me; 
 
-}(Chordynator.Map || {}));
+}(Chordynator.Map || {}, Chordynator.Events, Mediator));

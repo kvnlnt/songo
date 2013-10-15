@@ -1,0 +1,393 @@
+@import url(http://fonts.googleapis.com/css?family=Quantico|Open+Sans);
+/* -------------------------------------------------
+ * Layout
+/* ------------------------------------------------- */
+.red {
+  background-color: #FF0000;
+  opacity: 0.5;
+}
+.green {
+  background-color: #00FF00;
+  opacity: 0.5;
+}
+.blue {
+  background-color: #0000FF;
+  opacity: 0.5;
+}
+.grey {
+  background-color: #e2e2e2;
+  opacity: 0.5;
+}
+.box {
+  background-color: #000;
+  opacity: 0.5;
+}
+/* Mixin */
+/* Mixin */
+/* Mixin */
+/* Mixin */
+/* Mixin */
+/* Mixin */
+/* 
+ * HTML
+ */
+html,
+body,
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  background-color: #000;
+}
+h1 {
+  color: #FFF;
+}
+a {
+  cursor: pointer;
+}
+/* -------------------------------------------------
+ * Nav
+/* ------------------------------------------------- */
+nav {
+  background-color: #e2e2e2;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+/* nav *//* -------------------------------------------------
+ * Layout
+/* ------------------------------------------------- */
+#Layout {
+  width: 100%;
+  height: 100%;
+}
+#Lightbox {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+}
+svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* -------------------------------------------------
+ * Responsive Panes
+/* ------------------------------------------------- */
+.Pane {
+  margin: auto;
+}
+@media (min-width: 320px) {
+  .Pane {
+    width: 320px;
+  }
+}
+@media (min-width: 360px) {
+  .Pane {
+    width: 360px;
+  }
+}
+@media (min-width: 740px) {
+  .Pane {
+    width: 720px;
+  }
+}
+@media (min-width: 1100px) {
+  .Pane {
+    width: 1080px;
+  }
+}
+@media (min-width: 1460px) {
+  .Pane {
+    width: 1440px;
+  }
+}
+/* -------------------------------------------------
+ * Chordynator
+/* ------------------------------------------------- */
+#Chordynator {
+  min-width: 320px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  float: left;
+  position: relative;
+}
+#Chordynator > .Map {
+  float: left;
+  height: 100vw;
+  width: 100vw;
+}
+#Chordynator > .Tab {
+  float: left;
+  height: 100vw;
+  width: 100vw;
+}
+/* -------------------------------------------------
+ * Responsive Tweaks
+/* ------------------------------------------------- */
+@media (min-width: 320px) {
+  #Chordynator > .Map {
+    max-width: 320px;
+    max-height: 320px;
+    min-width: 320px;
+    min-height: 320px;
+    position: relative;
+  }
+  #Chordynator > .Tab {
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 160px;
+    min-height: 160px;
+  }
+}
+@media (min-width: 360px) {
+  #Chordynator > .Map {
+    max-width: 360px;
+    max-height: 360px;
+    min-width: 360px;
+    min-height: 360px;
+    position: relative;
+  }
+  #Chordynator > .Tab {
+    max-width: 360px;
+    min-width: 360px;
+    max-height: 180px;
+    min-height: 180px;
+  }
+}
+@media (max-width: 319px) {
+  #Chordynator .Map g {
+    display: none;
+  }
+}
+#Chordynator .Map {
+  /* DEFAULTS */
+
+  background-color: #05141e;
+  /* PLOTS & FLOWS */
+
+  /* g */
+
+}
+#Chordynator .Map rect {
+  fill: #05141e;
+  stroke: #1b6ba1;
+  stroke-width: 0.55;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#Chordynator .Map line {
+  stroke: #1b6ba1;
+  stroke-width: 0.55;
+}
+#Chordynator .Map ellipse {
+  fill: #1b6ba1;
+}
+#Chordynator .Map text,
+#Chordynator .Map image {
+  pointer-events: none;
+  text-anchor: middle;
+  font-family: 'Quantico';
+}
+#Chordynator .Map text.name {
+  font-size: 0.45rem;
+  fill: #c6e2f5;
+  letter-spacing: -0.13rem;
+}
+#Chordynator .Map text.type {
+  font-size: 0.20rem;
+  fill: #1b6ba1;
+}
+#Chordynator .Map g.plot,
+#Chordynator .Map g.flow {
+  /* selected */
+
+  /* active */
+
+}
+#Chordynator .Map g.plot:hover rect,
+#Chordynator .Map g.flow:hover rect {
+  stroke: #6ce042;
+}
+#Chordynator .Map g.plot:hover text,
+#Chordynator .Map g.flow:hover text {
+  fill: #c6e2f5;
+}
+#Chordynator .Map g.plot.selected rect,
+#Chordynator .Map g.flow.selected rect {
+  stroke: #6ce042;
+  -webkit-box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.5);
+}
+#Chordynator .Map g.plot.selected text.name,
+#Chordynator .Map g.flow.selected text.name {
+  fill: #cd2250;
+}
+#Chordynator .Map g.plot.selected text.type,
+#Chordynator .Map g.flow.selected text.type {
+  fill: #c6e2f5;
+}
+#Chordynator .Map g.plot.active rect,
+#Chordynator .Map g.flow.active rect {
+  stroke: #6ce042;
+}
+#Chordynator .Map g.plot.active line,
+#Chordynator .Map g.flow.active line {
+  stroke: #6ce042;
+}
+#Chordynator .Map g.plot.active ellipse,
+#Chordynator .Map g.flow.active ellipse {
+  fill: #6ce042;
+}
+#Chordynator .Map g.plot.active text,
+#Chordynator .Map g.flow.active text {
+  fill: #c6e2f5;
+}
+#Chordynator .Map {
+  /* BUTTONS */
+
+}
+#Chordynator .Map g.settings rect,
+#Chordynator .Map g.new rect,
+#Chordynator .Map g.options rect,
+#Chordynator .Map g.tertieries rect {
+  stroke: #75142e;
+}
+#Chordynator .Map g.settings:hover rect,
+#Chordynator .Map g.new:hover rect,
+#Chordynator .Map g.options:hover rect,
+#Chordynator .Map g.tertieries:hover rect {
+  stroke: #cd2250;
+}
+#Chordynator .Map g.settings:hover text.name,
+#Chordynator .Map g.new:hover text.name,
+#Chordynator .Map g.options:hover text.name,
+#Chordynator .Map g.tertieries:hover text.name {
+  fill: #cd2250;
+}
+#Chordynator .Map g.settings text.name,
+#Chordynator .Map g.new text.name,
+#Chordynator .Map g.options text.name,
+#Chordynator .Map g.tertieries text.name {
+  font-size: 0.30rem;
+  text-transform: uppercase;
+  letter-spacing: 0rem;
+  fill: #75142e;
+}
+#Chordynator .Map g.settings.active text,
+#Chordynator .Map g.new.active text,
+#Chordynator .Map g.options.active text,
+#Chordynator .Map g.tertieries.active text {
+  fill: #c6e2f5;
+}
+#Chordynator .Map g.options text.name {
+  font-size: 0.5rem;
+}
+#Chordynator .Map g.options image.unavailable {
+  display: none;
+}
+/* Settings */#Chordynator .Tab {
+  background-color: #1b6ba1;
+}
+/* -------------------------------------------------
+ * Chordynator
+ /* ------------------------------------------------- */
+form {
+  width: 80%;
+  max-width: 360px;
+  margin: auto;
+  padding: 10%;
+  color: #c6e2f5;
+  font-family: 'Open Sans', sans-serif;
+}
+form .formSubmit {
+  line-height: 2rem;
+  display: inline-block;
+  min-height: 40px;
+  font-size: 1.5rem;
+}
+form h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+form label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+form input[type="text"],
+form select {
+  width: 100%;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+}
+form input[type="checkbox"] {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+}
+form .close {
+  border: 1px solid #cd2250;
+  display: block;
+  float: right;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+}
+form .close:hover {
+  border: 1px solid #c6e2f5;
+}
+/* -------------------------------------------------
+ * Chordynator
+ /* ------------------------------------------------- */
+form .tertiery_list {
+  list-style: none inside none;
+  margin: 0;
+  padding: 0;
+}
+form .tertiery_list li {
+  border: 1px solid #75142e;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  list-style: none outside none;
+  margin: 2px;
+  min-width: 20%;
+  padding: 0 10px;
+  cursor: pointer;
+}
+form .tertiery_list li:hover {
+  border: 1px solid #cd2250;
+}
+/* -------------------------------------------------
+ * Wordnynator
+/* ------------------------------------------------- */
+#Wordynator {
+  clear: both;
+}

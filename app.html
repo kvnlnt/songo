@@ -14,7 +14,8 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <script type="text/javascript"></script>
-  <link rel="stylesheet/less" type="text/css" href="styles/styles.less">
+  <!-- <link rel="stylesheet/less" type="text/css" href="styles/styles.less"> -->
+  <link rel="stylesheet/less" type="text/css" href="styles/styles.css">
 
   <script>
     // var _gaq = _gaq || [];
@@ -38,14 +39,14 @@
 
   <div id="Layout">
     <div id="Lightbox"></div>
-    <div class="Pane">
+    <!-- <div class="Pane">
       <nav>
         <a href="#Chordynator">Chordynator</a>
         <a href="#Wordynator">Wordynator</a>
         <a href="#Tabynator">Tabynator</a>
         <a href="#Footer">Footer</a>
       </nav>
-    </div>
+    </div> -->
     <div class="Pane">
       <section id="Chordynator" class="neutral"></section>
     </div>
@@ -71,14 +72,16 @@
     "scripts/helpers/util/url.js",
     "scripts/services/Layout/layout.js",
     "scripts/services/Layout/lightbox.js",
+    "scripts/services/Mediator/mediator.js",
     "scripts/apps/Chordynator/chordynator.js",
+    "scripts/apps/Chordynator/events.js",
     "scripts/apps/Chordynator/map.js",
     "scripts/apps/Chordynator/map.layout.js",
-    "scripts/apps/Chordynator/events.js",
     "scripts/apps/Chordynator/key.js",
     "scripts/apps/Chordynator/key.mapping.js",
     "scripts/apps/Chordynator/key.util.js",
     "scripts/apps/Chordynator/tab.js",
+    "scripts/apps/Chordynator/tab.chords.js",
     "scripts/apps/Chordynator/map.forms.js",
     "scripts/apps/Wordynator/wordynator.js",
     "scripts/apps/Tabynator/tabynator.js",

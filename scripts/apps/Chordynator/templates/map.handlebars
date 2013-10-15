@@ -1,8 +1,8 @@
 <svg version="1.1" viewBox="-1 -1 100 100">
 {{#each plots}}
-  <g plot="{{@index}}" transform="translate({{this.x}},{{this.y}})" twin="{{twin}}" class="{{class}}">
+  <g plot="{{@index}}" transform="translate({{this.x}},{{this.y}})" twin="{{twin}}" class="{{class}}" chord="{{chord}}">
       <rect width="{{../chordSize}}" height="{{../chordSize}}" />
-      {{#isPlot class}}{{/isPlot}}
+      {{#isPlot class types}}{{/isPlot}}
   </g>
 {{/each}}
 

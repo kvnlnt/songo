@@ -18,10 +18,12 @@ Chordynator.Map.Forms = (function (me) {
 
     // get preconfig data
     var preConfig = {
-        settings:function(map){ return { type:'settings', index:map.index(), key:map.attr("key") }; },
-        types:function(map){ return { type:'types', index:map.index(), key:map.attr("key") }; },
-        new:function(map){ return { type:'new', index:map.index() }; },
-        tertieries:function(map){ return { type:'tertieries', index:map.index(), key:map.attr("key") }; }
+        settings:function(map){     return {    type:'settings', index:map.index(), key:map.attr("key") }; },
+        options:function(map){      return {    type:'options', index:map.index(), key:map.attr("key") }; },
+        tertieries:function(map){   return {    type:'tertieries',   
+                                                index:map.index(), 
+                                                key:map.attr("key"), 
+                                                tertieries:Chordynator.Key.getKey(map.attr("key")).chords.tertiery }; }
     }
 
     // Callback switchboard
@@ -45,9 +47,38 @@ Chordynator.Map.Forms = (function (me) {
 
         },
 
-        types:function(form){},
-        new:function(form){},
-        tertieries:function(form){}
+        options:function(form){},
+
+        tertieries:function(form){
+
+            // get values
+            var name, type, map, plot, flow;
+
+            form.find(".tertiery_list li").on('click',function(){
+
+                name = $(this).attr("name");
+                type = $(this).attr("type");
+                flow = $(this).attr("flowsTo");
+                map = $(".Map").eq(form.attr("index").value);
+                plot = map.find("g.tertiery");
+                updateTertiery(map, plot, name, type, flow);
+
+            });
+
+        }
+
+    }
+
+    function updateTertiery(map, plot, name, type, flow){
+
+        // assign to tertiery plot
+        plot.find(".name").text(name);
+        plot.find(".type").text(type);
+        plot.find(".type").attr('options', type);
+        plot.attr('flowsTo', flow);
+        plot.click();
+        map.find(".plot[plot='"+flow+"']").addClass('active');
+        Layout.Lightbox.hide();
 
     }
 

@@ -1,4 +1,17 @@
-<form>
-    <a class="close">close window</a>
-    <h2>Tertieries</h2>
+<form name="tertieriesForm" type="{{type}}">
+
+    <input type="hidden" name="index" value="{{index}}"/>
+    <input type="hidden" name="key" value="{{key}}"/>
+
+    <a class="close">x</a>
+
+    <h2>More Chords</h2>
+    <p>Pick one of these chords below to add it to the map. It will be added to the top right slot</p>
+
+    <ul class="tertiery_list">
+        {{#each tertieries}}
+            <li name="{{name}}" type="{{type}}" flowsTo="{{flowsTo}}">{{name}}{{type}}</li>
+        {{/each}}
+    </ul>
+
 </form>

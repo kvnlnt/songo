@@ -1,7 +1,7 @@
  #Chordynator .Map {
 
      /* BUTTONS */
-    g.settings, g.new, g.types, g.tertieries  {
+    g.settings, g.new, g.options, g.tertieries  {
 
         rect { stroke:@accentA; }
         &:hover rect { stroke:@accentB; }
@@ -24,9 +24,17 @@
 
     }
 
-    g.types image.unavailable{
-        display:none;
+    g.options {
+
+        text.name {
+            font-size: 0.5rem;
+        }
+
+        image.unavailable {
+            display:none;
+        }
     }
+
 
 }
 

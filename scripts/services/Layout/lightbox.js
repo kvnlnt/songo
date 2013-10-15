@@ -4,7 +4,7 @@ Layout.Lightbox = (function (me) {
     var dom = $("#"+id);
 
     $("a.close, .formSubmit").live('click',hide);
-    $("g.settings, g.new, g.types, g.tertieries").live('click', show);
+    $("g.settings, g.tertieries").live('click', show);
 
     function show(){
         dom.css("display","block");

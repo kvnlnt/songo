@@ -1,3 +1,134 @@
+#Chordynator .TabPreview {
+    .deleteTab {
+        display: none;
+    }
+}
+
+#Chordynator .sessionTab {
+    .copyTab {
+        display: none;
+    }
+}
+
 #Chordynator .Tab {
-    background-color: @primaryB;
+    background-color: @base;
+    cursor: pointer;
+
+    &:hover {
+        background-image:url(../gfx/diag.svg);
+    }
+
+    line { 
+        stroke:@primaryB;  
+        stroke-width:0.55; 
+    }
+
+    line.mutedString {
+        stroke:@primaryA;
+        stroke-dasharray:1,2;
+    }
+
+    text {
+        font-family: 'Quantico';
+    }
+
+    text tspan.name { 
+
+        pointer-events: none;
+        font-size:0.45rem; 
+        fill:@accentB; 
+        letter-spacing: -0.13rem;
+    }
+
+    text tspan.type { 
+
+        pointer-events: none;
+        font-size:0.45rem; 
+        fill:@primaryC; 
+        letter-spacing: -0.13rem;
+
+    }
+
+    .copyTab, .deleteTab {
+        cursor: pointer;
+    }
+
+    text {
+
+        .of, .current_variation, .total_variations {
+            font-size:0.35rem; 
+            fill:@primaryC; 
+            letter-spacing: -0.13rem;
+        }
+
+        .bar {
+            fill:@primaryA; 
+            font-size:0.45rem;
+        }
+
+        .of {
+            fill:@primaryA;
+            font-size:0.25rem;
+        }
+        
+    }
+
+    ellipse.frettedString {
+        fill:@secondaryB;
+    }
+
+    ellipse.openString {
+        stroke:@secondaryB;
+        fill:@base;
+        stroke-width:0.55; 
+    }
+
+    g.fretNumber {
+
+        text {
+            fill:@primaryC;
+            font-size: 0.35rem;
+            letter-spacing: -0.13rem;
+            text-anchor: middle;
+            .opac(0.25);
+        }
+
+        polygon{
+            stroke:@primaryB;
+            stroke-width:0.55;
+            fill:@primaryB;
+            .opac(0.10);
+        }
+
+    }
+
+    g.fretNumberFirst {
+
+        text {
+            fill:@primaryC;
+            font-size: 0.35rem;
+            letter-spacing: -0.13rem;
+            text-anchor: middle;
+            pointer-events:none;
+        }
+
+        polygon{
+            stroke:@primaryB;
+            stroke-width:0.55;
+            fill:@primaryB;
+            .opac(0.25);
+            cursor: pointer;
+            
+            &:hover{
+                .opac(0.5);
+            }
+
+        }
+
+    }
+
+}
+
+#Chordynator .activeTab {
+    background-color: @primary;
 }

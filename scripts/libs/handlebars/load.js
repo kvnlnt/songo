@@ -12,6 +12,6 @@ Handlebars.load = function (template_location, target, json, callback){
                 this.html(html);
                 if (typeof callback === 'function') callback();
             }
-        })
+        });
 
 };

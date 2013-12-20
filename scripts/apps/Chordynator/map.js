@@ -11,7 +11,7 @@ Chordynator.Map = (function(me, events, mediator){
 
         // load gui first
         loadMapTemplates(); // Load Maps from Session
-        loadTabTemplates(); // Load Tabs from Session
+        //loadTabTemplates(); // Load Tabs from Session
 
     }
 
@@ -103,19 +103,6 @@ Chordynator.Map = (function(me, events, mediator){
 
     }
 
-    function loadTabTemplates(){
-
-        // get all tabs
-        var tabs = Session.chordynator.tabs;
-
-        // Add tab preview
-        Chordynator.Dom.append('<div class="Tab TabPreview">Preview</div>');
-
-        // attach containers to doms
-        for(tab in tabs){ Chordynator.Dom.append('<div class="Tab">Tab</div>'); }
-            
-    }
-
     function plotClicked(e){
 
         // get current plot
@@ -165,7 +152,10 @@ Chordynator.Map = (function(me, events, mediator){
         }
 
         // broadcast event
-        mediator.publish(events.plotClicked, plot, map); //tim, david
+        mediator.name = plot.find(".name").text();
+        mediator.type = plot.find(".type").text();
+        mediator.variation = 0;
+        mediator.publish(events.plotClicked);
 
     }
 
@@ -189,6 +179,9 @@ Chordynator.Map = (function(me, events, mediator){
 
         // update options plot
         plot.find('.name').text(new_type);
+
+        // reclick 
+        map.find('g.selected').click();
 
     }
 

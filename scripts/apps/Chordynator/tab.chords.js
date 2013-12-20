@@ -1,7 +1,7 @@
 Chordynator.Tab.Chords = [{
-    root: ["A"],
+    root: ['A'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [-1, 0, 2, 2, 2, 0],
             [5, 4, 2, 2, 2, -1],
@@ -12,7 +12,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 11, 9, 10, 9]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, 0, 2, 2, -1, -1],
             [-1, 0, 2, 2, 5, 5],
@@ -20,14 +20,14 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 7, 9, 10, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [-1, 0, 2, 2, 2, 2],
             [5, -1, 4, 6, 2, -1],
             [5, 7, -1, 6, 7, 5]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, 0, 2, 0, 2, 0],
             [-1, 0, 2, 2, 2, 1],
@@ -37,7 +37,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, -1, 9, 10, 9]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [-1, 0, 2, 1, 2, 0],
             [-1, 0, 2, 2, 2, 4],
@@ -45,7 +45,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 11, 9, 9, 9]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [-1, 0, 2, 4, 2, 3],
             [5, 4, 5, 4, 5, -1],
@@ -53,13 +53,13 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 11, 12, 12, 12]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [-1, 0, 2, 4, 2, 4],
             [5, -1, 6, 6, -1, 7]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [-1, 0, 0, 0, 2, 0],
             [5, 5, 5, 6, 5, 7],
@@ -67,20 +67,20 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 11, 12, 10, 10]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, 0, 2, 0, 2, 2],
             [-1, -1, 5, 2, 2, 2],
             [5, 7, 5, 6, 7, 5]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [-1, 0, 2, 1, 2, 2],
             [5, 4, 4, 4, 5, 4]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [-1, 0, 2, 2, 1, 0],
             [-1, 3, 2, 2, 5, -1],
@@ -91,7 +91,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 10, 9, 10, -1]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, 0, 2, 2, 1, 2],
             [5, -1, 4, 5, 5, 5],
@@ -99,7 +99,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, -1, 11, 13, 12]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [-1, 0, 2, 0, 1, 0],
             [5, 7, 5, 5, 8, 5],
@@ -107,7 +107,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 10, 12, 10, 12]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [5, 3, 2, 0, 0, 0],
             [-1, 0, 2, 4, 1, 0],
@@ -115,25 +115,25 @@ Chordynator.Tab.Chords = [{
             [5, -1, 5, 5, 5, 7]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [-1, 0, 0, 0, 1, 0],
             [-1, 7, 7, 7, 8, 8]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [-1, 0, 2, 0, 1, 2],
             [5, 7, 5, 5, 7, 5]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [-1, 0, 2, 2, 1, 4],
             [5, 7, 6, 5, 5, 5]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, 0, 2, 2, 0, 0],
             [5, -1, -1, 4, 5, 5],
@@ -141,20 +141,20 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 9, 9, 10, -1]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [-1, 0, 2, 2, 3, 0],
             [5, 7, 7, 7, 5, 5],
             [-1, 7, 7, 7, 10, 10]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [-1, 0, 1, 2, 1, 2],
             [5, -1, 4, 5, 4, -1]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, 0, 3, 2, 2, 1],
             [5, -1, 7, 6, 6, -1],
@@ -162,7 +162,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 11, 10, 10, -1]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [-1, 0, 4, 4, 2, 0],
             [5, 2, 2, 2, 2, 2],
@@ -170,19 +170,19 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 9, 9, 10, 9]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [-1, 0, 2, 0, 3, 0],
             [5, 7, 5, 7, 5, 5]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [-1, 0, 1, 2, 2, 3],
             [-1, 6, 7, 6, 8, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [5, 4, -1, 3, 5, 3],
             [5, 7, 8, 6, 5, 5],
@@ -190,7 +190,7 @@ Chordynator.Tab.Chords = [{
             [0, 12, 11, 12, 11, 12]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [5, -1, 5, 4, 3, -1],
             [-1, -1, 7, 7, 8, 7],
@@ -198,7 +198,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 12, 12, 12, 12]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, 0, 2, 4, 2, 0],
             [-1, -1, 7, 6, 5, 7],
@@ -206,16 +206,16 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 11, 9, 12, -1]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [5, -1, 5, 6, 6, 7],
             [-1, 10, 9, 10, 10, 11]
         ]
     }]
 }, {
-    root: ["Bb", "A#"],
+    root: ['Bb', 'A#'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [-1, 1, 3, 3, 3, 1],
             [6, 5, 3, 3, 3, -1],
@@ -226,7 +226,7 @@ Chordynator.Tab.Chords = [{
             [-1, 13, 12, 10, 11, 10]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, 1, 3, 3, -1, -1],
             [-1, -1, 3, 3, 6, 6],
@@ -234,7 +234,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 8, 10, 11, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [-1, 1, 3, 3, 3, 3],
             [6, 5, 3, 3, 3, 3],
@@ -242,7 +242,7 @@ Chordynator.Tab.Chords = [{
             [6, 8, -1, 7, 8, 6]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, 1, 3, 1, 3, 1],
             [4, -1, 3, 3, 3, -1],
@@ -252,7 +252,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 8, 10, 9, 10]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [-1, 1, 3, 2, 3, 1],
             [-1, -1, 8, 7, 6, 5],
@@ -260,7 +260,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 8, 10, 10, 10]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [-1, 1, 0, 1, 1, 1],
             [6, -1, 6, 5, 3, -1],
@@ -268,13 +268,13 @@ Chordynator.Tab.Chords = [{
             [10, -1, 8, 10, 9, 8]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [-1, 1, 0, 2, 1, 1],
             [6, -1, 7, 7, -1, 8]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [-1, 1, 1, 1, 3, 1],
             [6, 6, 6, 7, 6, 8],
@@ -282,20 +282,20 @@ Chordynator.Tab.Chords = [{
             [10, -1, -1, 10, 9, 11]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, 1, -1, 1, 3, 3],
             [6, 8, 6, 7, 8, 6],
             [6, -1, 6, 7, 8, 8]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [-1, 1, -1, 2, 3, 3],
             [6, -1, 7, 7, 8, 8]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [-1, 1, 3, 3, 2, 1],
             [-1, -1, 3, 6, 6, 6],
@@ -306,7 +306,7 @@ Chordynator.Tab.Chords = [{
             [-1, 13, 11, 10, 11, -1]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, 1, 3, 0, 2, -1],
             [6, -1, 5, 6, 6, -1],
@@ -314,7 +314,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 11, 12, 11, 13]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [-1, 1, 3, 1, 2, 1],
             [6, 8, 6, 6, 9, 6],
@@ -322,31 +322,31 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 8, 10, 9, 9]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [6, -1, 6, 6, 6, 8],
             [-1, 13, 11, 13, 13, -1]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [-1, 1, 1, 1, 2, 1],
             [-1, 8, 8, 8, 9, 9]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [-1, 1, -1, 1, 2, 3],
             [6, 8, 6, 6, 8, 6]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [-1, 1, 3, 2, 2, 1],
             [-1, -1, 8, 10, 10, 9]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, 1, 3, 3, 1, 1],
             [6, -1, -1, 5, 6, 6],
@@ -354,7 +354,7 @@ Chordynator.Tab.Chords = [{
             [-1, 13, 10, 10, 11, -1]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [-1, 1, 1, 3, 4, 1],
             [6, 8, 8, 8, 6, 6],
@@ -362,13 +362,13 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 13, 10, 11, 13]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [6, -1, 5, 6, 5, -1],
             [6, 7, 8, 6, 8, 6]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, 1, 0, 3, 3, 2],
             [6, -1, 8, 7, 7, -1],
@@ -376,7 +376,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 8, 7, 7, 10]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [-1, 1, 0, 0, 1, 1],
             [6, 3, 3, 3, 3, 3],
@@ -384,19 +384,19 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 10, 10, 11, 10]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [-1, 1, 3, 1, 4, 1],
             [-1, -1, 8, 10, 9, 11]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [-1, 1, 0, 1, 3, 0],
             [-1, -1, 8, 9, 9, 10]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [-1, 1, 0, 1, 0, 1],
             [6, 5, -1, 4, 6, 4],
@@ -407,7 +407,7 @@ Chordynator.Tab.Chords = [{
             [-1, 13, 12, 13, 12, 13]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, 1, 1, 1, 1, 1],
             [6, -1, 6, 5, 4, -1],
@@ -415,7 +415,7 @@ Chordynator.Tab.Chords = [{
             [-1, 13, -1, 13, 13, 12]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, 1, 1, 1, 1, -1],
             [-1, 1, 3, 5, 3, 1],
@@ -423,16 +423,16 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 10, 11, 10]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [-1, 1, 0, 1, 1, 2],
             [6, -1, 6, 7, 7, 8]
         ]
     }]
 }, {
-    root: ["B"],
+    root: ['B'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [-1, 2, 4, 4, 4, 2],
             [7, 6, 4, 4, 4, -1],
@@ -442,7 +442,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 11, 12, 11]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, 2, 4, 4, -1, -1],
             [-1, -1, 4, 4, 7, 7],
@@ -450,7 +450,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 11, 12, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [2, 2, 1, 1, 0, -1],
             [-1, 2, 4, 4, 4, 4],
@@ -458,7 +458,7 @@ Chordynator.Tab.Chords = [{
             [7, 9, -1, 8, 9, 7]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, 2, 1, 2, 0, 2],
             [-1, 2, 4, 4, 4, 5],
@@ -468,7 +468,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 11, 10, 11]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [2, 2, 1, 3, 0, -1],
             [-1, 2, 4, 3, 4, 2],
@@ -476,7 +476,7 @@ Chordynator.Tab.Chords = [{
             [7, -1, 8, 8, 7, -1]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [-1, 2, 1, 2, 2, 2],
             [7, -1, 7, 6, 4, -1],
@@ -484,13 +484,13 @@ Chordynator.Tab.Chords = [{
             [7, 9, 7, 8, 7, 9]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [-1, 2, 1, 3, 2, 2],
             [7, -1, 8, 8, -1, 9]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [-1, 2, 1, 2, 2, 0],
             [-1, 1, 1, 1, 3, 1],
@@ -498,7 +498,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 9, 10, 11]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, 2, 1, 2, 2, 4],
             [-1, 2, -1, 2, 4, 4],
@@ -506,13 +506,13 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 13, 13, 12, -1]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [-1, 2, -1, 3, 4, 4],
             [7, -1, 8, 8, 9, -1]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [-1, 2, 4, 4, 3, 2],
             [-1, 5, 4, 4, 3, -1],
@@ -523,7 +523,7 @@ Chordynator.Tab.Chords = [{
             [10, -1, 9, 11, 12, -1]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, 2, -1, 1, 3, 2],
             [-1, 2, 4, -1, 3, 4],
@@ -531,7 +531,7 @@ Chordynator.Tab.Chords = [{
             [7, 9, 9, 7, 9, 7]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [-1, 2, 0, 2, 0, 2],
             [-1, 2, 4, 2, 3, 2],
@@ -539,31 +539,31 @@ Chordynator.Tab.Chords = [{
             [7, 9, 7, 7, 10, 7]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [-1, 2, 0, 2, 2, 2],
             [7, -1, 7, 7, 7, 10]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [-1, 2, 2, 2, 3, 2],
             [7, 7, 7, 7, 7, 7]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [-1, 2, -1, 2, 3, 4],
             [7, 9, 7, 7, 9, 7]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [-1, 2, -1, 3, 3, 2],
             [7, 9, 8, 7, 7, 7]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, 2, 4, 4, 2, 2],
             [7, -1, -1, 6, 7, 7],
@@ -571,7 +571,7 @@ Chordynator.Tab.Chords = [{
             [-1, 14, 11, 11, 12, -1]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [-1, 2, 4, 4, 5, 2],
             [7, 9, 9, 9, 7, 7],
@@ -579,13 +579,13 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 11, 12, 12]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [-1, 2, 3, 1, 3, -1],
             [7, 8, 9, 7, 9, 7]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, 2, 1, 0, 0, 3],
             [7, -1, 9, 8, 8, -1],
@@ -593,7 +593,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 8, 8, 11]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [-1, 2, 1, 1, 2, 2],
             [7, 4, 4, 4, 4, 4],
@@ -601,19 +601,19 @@ Chordynator.Tab.Chords = [{
             [7, 9, -1, 8, 9, 9]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [-1, 2, 4, 2, 5, 2],
             [7, 9, 7, 9, 7, 7]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [-1, 2, 3, 2, 4, -1],
             [7, 8, 7, 8, -1, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [-1, 2, 1, 2, 1, 2],
             [7, 6, -1, 5, 7, 5],
@@ -621,14 +621,14 @@ Chordynator.Tab.Chords = [{
             [7, 9, 7, 8, 7, 8]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, 2, 2, 2, 2, 2],
             [7, -1, 7, 6, 5, -1],
             [-1, 9, 9, 9, 10, 9]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, 4, 4, 4, 4, -1],
             [-1, 2, 4, 6, 4, 2],
@@ -636,16 +636,16 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 11, 11, 12, 11]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [-1, 2, 1, 2, 2, 3],
             [7, -1, 7, 8, 8, 9]
         ]
     }]
 }, {
-    root: ["C"],
+    root: ['C'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [-1, 3, 2, 0, 1, 0],
             [3, 3, 2, 0, 1, 0],
@@ -656,7 +656,7 @@ Chordynator.Tab.Chords = [{
             [12, -1, 10, 12, 13, -1]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, 3, 5, 5, -1, -1],
             [-1, -1, 5, 5, 8, 8],
@@ -664,7 +664,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 12, 13, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [3, -1, 2, 2, 1, -1],
             [-1, 3, 5, 5, 5, 5],
@@ -672,7 +672,7 @@ Chordynator.Tab.Chords = [{
             [8, 10, -1, 9, 10, 8]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, 3, 2, 3, 1, 0],
             [-1, 3, 5, 3, 5, 3],
@@ -682,7 +682,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 12, 11, 12]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [-1, 3, 2, 0, 0, 0],
             [-1, 3, 5, 4, 5, 3],
@@ -690,7 +690,7 @@ Chordynator.Tab.Chords = [{
             [8, 10, -1, 9, 12, 12]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [-1, 3, 2, 3, 3, 3],
             [8, -1, 8, 7, 5, -1],
@@ -698,13 +698,13 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 9, 11, 10]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [-1, 3, 5, 4, 3, 0],
             [-1, 7, 10, 7, 8, 7]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [-1, 3, 2, 3, 1, 1],
             [-1, 3, 3, 3, 5, 3],
@@ -712,7 +712,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 10, 11, 12]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, 1, 2, 2, 1, -1],
             [8, -1, 8, 7, 5, 5],
@@ -720,13 +720,13 @@ Chordynator.Tab.Chords = [{
             [8, -1, 8, 9, 10, -1]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [-1, 3, -1, 4, 5, 5],
             [8, 7, 7, 7, 8, 7]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [-1, 3, 1, 0, 1, -1],
             [-1, 3, 5, 5, 4, 3],
@@ -737,7 +737,7 @@ Chordynator.Tab.Chords = [{
             [11, -1, 10, 12, 13, -1]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, 0, 1, 0, 1, 3],
             [-1, 3, -1, 2, 4, 3],
@@ -745,7 +745,7 @@ Chordynator.Tab.Chords = [{
             [8, 10, 10, 8, 10, 8]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [-1, -1, 1, 3, 1, 3],
             [-1, 3, 5, 3, 4, 3],
@@ -753,31 +753,31 @@ Chordynator.Tab.Chords = [{
             [11, -1, 10, 12, 11, -1]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [-1, 3, 1, 3, 3, -1],
             [-1, 6, 8, 7, 8, 8]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [-1, 3, 3, 3, 4, 3],
             [8, -1, 8, 8, 6, -1]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [-1, 3, -1, 3, 4, 5],
             [8, 10, 8, 8, 10, 8]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [-1, 3, 5, 4, 4, 3],
             [8, -1, 9, 8, 8, -1]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, 3, 0, 0, 1, 3],
             [-1, 3, 5, 7, -1, -1],
@@ -785,20 +785,20 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 7, 8, 10]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [-1, 3, 3, 0, 1, -1],
             [-1, 3, 5, 5, 6, 3],
             [8, 10, 10, 10, 8, 8]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [-1, -1, 1, 2, 1, 2],
             [-1, 3, -1, 2, 4, 2]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, 3, 2, 1, 1, -1],
             [-1, 3, -1, 5, 5, 4],
@@ -806,7 +806,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 9, 9, 8]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [-1, 3, 2, 2, 3, 3],
             [8, -1, 5, 7, 5, 5],
@@ -814,19 +814,19 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 10, 9, 10, 10]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [3, -1, 3, 3, 1, -1],
             [-1, 3, 5, 3, 6, 3]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [-1, 3, 4, 3, 5, -1],
             [8, -1, 8, 9, 7, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [-1, 3, 2, 3, 2, 0],
             [-1, 5, 4, 5, 4, 5],
@@ -836,7 +836,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 9, 11, 9]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, 3, -1, 3, 3, 1],
             [-1, 3, 3, 3, 3, 3],
@@ -844,7 +844,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 10, 10, 11, 10]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, 3, 2, 0, 3, 3],
             [-1, 3, 5, 7, 5, 3],
@@ -852,16 +852,16 @@ Chordynator.Tab.Chords = [{
             [-1, 7, -1, 7, 8, 8]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [0, 1, 0, 1, 1, 0],
             [8, 7, 8, 7, 9, -1]
         ]
     }]
 }, {
-    root: ["C#", "Db"],
+    root: ['C#', 'Db'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [-1, 4, 3, 1, 2, 1],
             [-1, 4, 6, 6, 6, 4],
@@ -870,7 +870,7 @@ Chordynator.Tab.Chords = [{
             [9, 11, 11, 10, 9, 9]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, -1, -1, 1, 2, 4],
             [-1, 4, 6, 6, -1, -1],
@@ -878,7 +878,7 @@ Chordynator.Tab.Chords = [{
             [9, 11, 11, -1, -1, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [-1, -1, 3, 3, 2, 4],
             [-1, 4, 6, 6, 6, 6],
@@ -886,7 +886,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 11, 13, 11, 13]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, 4, 3, 4, 2, -1],
             [-1, 4, 6, 4, 6, 4],
@@ -894,7 +894,7 @@ Chordynator.Tab.Chords = [{
             [9, 11, 9, 10, 9, 9]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [-1, 4, 3, 1, 1, 1],
             [-1, 4, 6, 5, 6, 4],
@@ -902,7 +902,7 @@ Chordynator.Tab.Chords = [{
             [9, -1, 10, 10, 9, -1]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [-1, 4, 3, 4, 4, 4],
             [9, -1, 9, 8, 6, -1],
@@ -910,13 +910,13 @@ Chordynator.Tab.Chords = [{
             [9, 11, 9, 10, 9, 11]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [-1, 4, 1, 1, 1, 1],
             [9, -1, 10, 10, -1, 11]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [-1, 4, 3, 4, 2, 2],
             [-1, 4, 4, 4, 6, 4],
@@ -924,7 +924,7 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 9, 10, 9, 9]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, 4, 3, 4, 4, 6],
             [9, -1, 9, 8, 6, 6],
@@ -932,13 +932,13 @@ Chordynator.Tab.Chords = [{
             [9, -1, 9, 10, 11, -1]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [-1, 4, -1, 5, 6, 6],
             [9, 8, 8, 8, 9, 8]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [-1, 4, 2, 1, 2, -1],
             [-1, -1, 2, 1, 2, 0],
@@ -948,7 +948,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 11, 9, 9, 12]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, 4, -1, 3, 5, 4],
             [-1, 4, 2, 3, 2, 4],
@@ -956,7 +956,7 @@ Chordynator.Tab.Chords = [{
             [9, 11, 11, 9, 11, 9]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [-1, 4, 2, 1, 0, 0],
             [-1, 4, -1, 4, 5, 4],
@@ -964,31 +964,31 @@ Chordynator.Tab.Chords = [{
             [9, 11, 9, 9, 12, 9]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [-1, 4, 2, 4, 4, -1],
             [9, -1, 9, 9, 9, 11]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [-1, 4, 1, 4, 4, 1],
             [-1, 4, 4, 4, 5, 4]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [-1, 1, -1, 1, 2, 3],
             [9, 11, 9, 9, 11, 9]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [-1, 4, 6, 5, 5, 4],
             [9, 11, 10, 9, 9, 9]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, -1, 1, 1, 2, -1],
             [-1, 4, 6, 6, 4, 4],
@@ -996,7 +996,7 @@ Chordynator.Tab.Chords = [{
             [9, -1, -1, 8, 10, -1]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [-1, 4, 6, 6, 7, -1],
             [-1, -1, 6, 6, 4, 7],
@@ -1004,13 +1004,13 @@ Chordynator.Tab.Chords = [{
             [9, 11, 11, 11, 9, 9]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [-1, -1, 2, 3, 2, 3],
             [9, -1, 8, 9, 8, -1]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, 4, 3, 2, 2, -1],
             [-1, 4, -1, 6, 6, 5],
@@ -1018,7 +1018,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 11, 10, 10, 9]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [-1, 1, 1, 1, 2, 1],
             [9, -1, 6, 8, 6, 6],
@@ -1026,19 +1026,19 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 11, 10, 11, 11]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [4, -1, 4, 4, 2, -1],
             [-1, 4, 6, 4, 7, 4]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [3, -1, 3, 4, 2, -1],
             [9, -1, 9, 10, 8, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [-1, 4, -1, 4, 3, 1],
             [-1, 4, 3, 4, 3, 4],
@@ -1048,7 +1048,7 @@ Chordynator.Tab.Chords = [{
             [9, 11, 9, 10, 9, 10]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, 4, -1, 4, 4, 2],
             [-1, 4, 4, 4, 4, 4],
@@ -1056,7 +1056,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 11, 11, 12, 11]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, 4, 3, 1, 4, -1],
             [-1, 4, 6, 8, 6, -1],
@@ -1064,16 +1064,16 @@ Chordynator.Tab.Chords = [{
             [-1, 8, -1, 8, 9, 9]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [-1, 4, 3, 4, 4, 5],
             [9, 8, 9, 8, 10, -1]
         ]
     }]
 }, {
-    root: ["D"],
+    root: ['D'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [-1, -1, 0, 2, 3, 2],
             [-1, -1, 4, 2, 4, 5],
@@ -1084,7 +1084,7 @@ Chordynator.Tab.Chords = [{
             [10, 12, 12, 11, 10, 10]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, -1, 0, 2, 3, -1],
             [-1, 5, 7, 7, -1, -1],
@@ -1092,7 +1092,7 @@ Chordynator.Tab.Chords = [{
             [10, 12, 12, -1, -1, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [-1, -1, 0, 2, 0, 2],
             [-1, 5, 7, 7, 7, 7],
@@ -1100,7 +1100,7 @@ Chordynator.Tab.Chords = [{
             [10, 12, -1, 11, 12, 10]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, -1, 0, 2, 1, 2],
             [-1, 5, 4, 5, 3, -1],
@@ -1110,7 +1110,7 @@ Chordynator.Tab.Chords = [{
             [10, 12, 10, 11, 10, 10]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [-1, 5, 4, 2, 2, 2],
             [-1, 5, 7, 6, 7, 5],
@@ -1118,7 +1118,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 12, 11, 10, 9]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [-1, 5, 4, 2, 1, 0],
             [-1, 5, 4, 5, 5, 5],
@@ -1126,13 +1126,13 @@ Chordynator.Tab.Chords = [{
             [10, 12, 10, 11, 10, 12]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [-1, 5, 2, 2, 2, 2],
             [10, -1, 11, 11, -1, 12]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [-1, -1, 0, 0, 1, 2],
             [-1, 5, 4, 5, 3, 3],
@@ -1140,7 +1140,7 @@ Chordynator.Tab.Chords = [{
             [-1, 9, -1, 7, 8, 8]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, 3, 4, 4, 3, -1],
             [-1, 5, -1, 5, 7, 7],
@@ -1148,13 +1148,13 @@ Chordynator.Tab.Chords = [{
             [10, -1, 10, 11, 12, 12]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [-1, 5, -1, 6, 7, 7],
             [10, 9, 9, 9, 10, 9]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [-1, -1, 0, 2, 3, 1],
             [-1, 5, 3, 2, 3, -1],
@@ -1165,7 +1165,7 @@ Chordynator.Tab.Chords = [{
             [10, 12, 12, 10, 10, 10]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, -1, 0, 2, 0, 1],
             [-1, 5, 3, 4, 3, 5],
@@ -1173,7 +1173,7 @@ Chordynator.Tab.Chords = [{
             [10, -1, 9, 10, 10, -1]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [-1, -1, 0, 2, 1, 1],
             [-1, 5, 7, 5, 6, 5],
@@ -1181,31 +1181,31 @@ Chordynator.Tab.Chords = [{
             [10, -1, 10, 10, 10, -1]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [-1, 5, 3, 5, 5, -1],
             [10, -1, 10, 10, 10, 12]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [-1, -1, 0, 0, 1, 1],
             [-1, 5, 5, 5, 6, 5]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [-1, -1, 0, 4, 1, 1],
             [10, 12, 10, 10, 12, 10]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [-1, -1, 0, 2, 2, 1],
             [-1, 5, 7, 6, 6, 5]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, -1, 0, 2, 3, 0],
             [-1, 5, 7, 7, 5, 5],
@@ -1213,7 +1213,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 12, 9, 10, 12]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [-1, -1, 0, 2, 3, 3],
             [-1, 5, 7, 7, 8, 5],
@@ -1221,13 +1221,13 @@ Chordynator.Tab.Chords = [{
             [10, 12, 12, 12, 10, 10]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [-1, -1, 0, 1, 0, 1],
             [-1, 5, -1, 4, 6, 4]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, -1, 0, 3, 3, 2],
             [-1, 5, 4, 3, 3, -1],
@@ -1235,7 +1235,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 8, 7, 7, 10]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [-1, 5, 4, 2, 0, 0],
             [-1, 5, 4, 4, 5, 5],
@@ -1243,19 +1243,19 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 9, 9, 10, 10]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [-1, -1, 0, 2, 1, 3],
             [10, 12, 10, 12, 13, 10]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [-1, -1, 0, 1, 1, 2],
             [-1, 5, 6, 5, 7, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [-1, -1, 0, 5, 4, 2],
             [-1, 5, 4, 5, 4, 5],
@@ -1266,7 +1266,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 12, 11, 13, 11]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, 5, -1, 5, 5, 3],
             [-1, 5, 5, 5, 5, 5],
@@ -1274,7 +1274,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 12, 12, 13, 12]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, -1, 4, 2, 3, 0],
             [5, -1, 4, 7, 5, -1],
@@ -1282,16 +1282,16 @@ Chordynator.Tab.Chords = [{
             [-1, 9, -1, 9, 10, 10]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [2, 3, 2, 3, 3, 2],
             [10, 9, 10, 9, 11, -1]
         ]
     }]
 }, {
-    root: ["Eb", "D#"],
+    root: ['Eb', 'D#'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [-1, -1, 1, 3, 4, 3],
             [-1, 6, 5, 3, 4, 3],
@@ -1302,7 +1302,7 @@ Chordynator.Tab.Chords = [{
             [11, 13, 13, 12, 11, 11]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, -1, 1, 3, 4, -1],
             [-1, 6, 8, 8, -1, -1],
@@ -1310,7 +1310,7 @@ Chordynator.Tab.Chords = [{
             [11, 13, 13, -1, -1, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [-1, -1, 1, 3, 1, 3],
             [-1, 6, 8, 8, 8, 8],
@@ -1318,7 +1318,7 @@ Chordynator.Tab.Chords = [{
             [11, -1, 10, 12, 11, -1]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, -1, 1, 3, 2, 3],
             [-1, 4, -1, 3, 4, 3],
@@ -1328,7 +1328,7 @@ Chordynator.Tab.Chords = [{
             [11, 13, 11, 12, 11, 11]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [-1, -1, 1, 3, 3, 3],
             [-1, 6, 5, 3, 3, 3],
@@ -1336,7 +1336,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 13, 12, 11, 10]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [-1, -1, 1, 0, 2, 1],
             [-1, 6, 5, 6, 6, 6],
@@ -1344,13 +1344,13 @@ Chordynator.Tab.Chords = [{
             [11, 13, 11, 12, 11, 13]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [-1, -1, 1, 0, 3, 1],
             [-1, 6, 3, 3, 3, 3]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [-1, -1, 1, 1, 2, 3],
             [4, 4, 5, 6, 4, 4],
@@ -1358,7 +1358,7 @@ Chordynator.Tab.Chords = [{
             [-1, 6, 6, 6, 8, 6]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, 4, 5, 5, 4, -1],
             [-1, 6, 5, 6, 6, 8],
@@ -1366,13 +1366,13 @@ Chordynator.Tab.Chords = [{
             [11, -1, 11, 12, 13, -1]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [-1, 2, 1, 3, 4, 4],
             [11, 10, 10, 10, 11, 10]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [2, -1, 1, 3, 4, -1],
             [-1, 1, 4, 3, 4, -1],
@@ -1383,7 +1383,7 @@ Chordynator.Tab.Chords = [{
             [11, 13, 13, 11, 11, 11]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, -1, 1, 3, 1, 2],
             [-1, 3, 4, 3, 4, -1],
@@ -1391,7 +1391,7 @@ Chordynator.Tab.Chords = [{
             [11, -1, 10, 11, 11, -1]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [-1, -1, 1, 3, 2, 2],
             [-1, 4, 4, 3, 4, -1],
@@ -1399,31 +1399,31 @@ Chordynator.Tab.Chords = [{
             [11, -1, 11, 11, 11, -1]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [2, -1, 1, 3, 2, 1],
             [11, -1, 11, 11, 11, 13]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [-1, 1, 1, 1, 2, 2],
             [11, 11, 11, 11, 11, 11]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [-1, 6, -1, 6, 7, 8],
             [11, 13, 11, 11, 13, 11]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [-1, -1, 1, 3, 3, 2],
             [-1, 6, 8, 7, 7, 6]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, -1, 1, 3, 4, 1],
             [-1, 6, 8, 8, 6, 6],
@@ -1431,7 +1431,7 @@ Chordynator.Tab.Chords = [{
             [11, -1, 8, 10, 11, -1]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [-1, -1, 1, 3, 4, 4],
             [-1, -1, 8, 8, 9, 6],
@@ -1439,13 +1439,13 @@ Chordynator.Tab.Chords = [{
             [11, 13, 13, 13, 11, 11]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [-1, -1, 1, 2, 1, 2],
             [-1, 6, 7, 5, 7, -1]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, -1, 1, 0, 0, 3],
             [-1, -1, 5, 4, 4, 3],
@@ -1453,7 +1453,7 @@ Chordynator.Tab.Chords = [{
             [-1, 6, -1, 8, 8, 7]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [-1, 3, 3, 3, 4, 3],
             [-1, 6, 5, 5, 6, 6],
@@ -1461,19 +1461,19 @@ Chordynator.Tab.Chords = [{
             [11, -1, 8, 10, 8, 8]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [-1, -1, 1, 1, 2, -1],
             [-1, 6, 8, 6, 9, -1]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [-1, -1, 1, 2, 2, 3],
             [-1, 6, 7, 6, 8, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [-1, 6, -1, 6, 5, 3],
             [-1, 6, 5, 6, 5, 6],
@@ -1484,7 +1484,7 @@ Chordynator.Tab.Chords = [{
             [11, 13, 14, 12, -1, -1]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, -1, 1, 1, 2, 1],
             [-1, 6, -1, 6, 6, 4],
@@ -1492,7 +1492,7 @@ Chordynator.Tab.Chords = [{
             [11, -1, 11, 10, 9, -1]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, -1, 3, 3, 4, 3],
             [-1, 6, 5, 3, 6, -1],
@@ -1500,16 +1500,16 @@ Chordynator.Tab.Chords = [{
             [-1, 10, -1, 10, 11, 11]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [3, 4, 3, 4, 4, 3],
             [11, 10, 11, 10, 12, -1]
         ]
     }]
 }, {
-    root: ["E"],
+    root: ['E'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [0, 2, 2, 1, 0, 0],
             [0, 2, 2, 4, 5, 4],
@@ -1520,7 +1520,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 9, 9, 12]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [0, 2, 2, -1, -1, -1],
             [-1, -1, 2, 4, 5, -1],
@@ -1528,7 +1528,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 9, 12, 12]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [-1, -1, 2, 4, 2, 4],
             [0, 2, 2, 1, 2, 0],
@@ -1536,7 +1536,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 11, 9, 12, -1]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [0, 2, 0, 1, 0, 0],
             [0, 2, 2, 1, 3, 0],
@@ -1546,14 +1546,14 @@ Chordynator.Tab.Chords = [{
             [-1, 7, 9, 9, 9, 10]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [0, 2, 1, 1, 0, 0],
             [-1, 7, 6, 4, 4, 4],
             [-1, -1, 9, 9, 9, 11]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [4, -1, 2, 4, 3, 2],
             [0, 2, 0, 1, 0, 2],
@@ -1561,13 +1561,13 @@ Chordynator.Tab.Chords = [{
             [12, -1, 12, 11, 9, -1]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [0, 2, 4, 4, 4, 4],
             [-1, 7, 4, 4, 4, 4]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [0, 0, 2, 1, 3, 2],
             [-1, -1, 2, 2, 3, 4],
@@ -1575,20 +1575,20 @@ Chordynator.Tab.Chords = [{
             [-1, 7, 7, 7, 9, 7]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [0, 2, 0, 1, 2, 2],
             [-1, 5, 6, 6, 5, -1],
             [-1, 7, -1, 7, 9, 9]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [0, 2, 1, 1, 2, 2],
             [12, 11, 11, 11, 12, 11]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [0, 2, 2, 0, 0, 0],
             [-1, -1, 2, 4, 5, 3],
@@ -1599,7 +1599,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 9, 12, 12, 12]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [0, 2, 2, 0, 2, 0],
             [-1, 7, 5, 6, 5, 7],
@@ -1607,7 +1607,7 @@ Chordynator.Tab.Chords = [{
             [12, -1, 11, 12, 12, -1]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [0, 2, 0, 0, 0, 0],
             [0, 2, 2, 0, 3, 0],
@@ -1615,30 +1615,30 @@ Chordynator.Tab.Chords = [{
             [-1, 7, -1, 7, 8, 7]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [0, 2, 0, 0, 0, 2],
             [-1, 7, 5, 7, 7, -1]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [-1, 7, 7, 7, 8, 7]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [0, 2, 0, 0, 2, 2],
             [-1, 7, -1, 7, 8, 9]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [0, 2, 1, 0, 0, 0],
             [-1, 7, 5, 4, 4, -1]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, -1, 2, 4, 5, 2],
             [-1, -1, 4, 4, 5, 7],
@@ -1646,7 +1646,7 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 9, 9, 12, 12]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [0, 2, 2, 2, 0, 0],
             [-1, -1, 2, 4, 5, 5],
@@ -1654,13 +1654,13 @@ Chordynator.Tab.Chords = [{
             [-1, 7, 9, 9, 10, -1]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [-1, -1, 2, 3, 2, 3],
             [12, -1, 11, 12, 11, -1]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, -1, 2, 1, 1, 0],
             [4, -1, -1, 5, 5, 4],
@@ -1668,7 +1668,7 @@ Chordynator.Tab.Chords = [{
             [-1, 7, -1, 9, 9, 8]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [0, 2, -1, 1, 2, 2],
             [-1, 4, 4, 4, 5, 4],
@@ -1676,19 +1676,19 @@ Chordynator.Tab.Chords = [{
             [12, 11, 11, 11, 12, 12]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [-1, 2, 2, 2, 3, -1],
             [-1, 7, 9, 7, 10, -1]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [-1, -1, 2, 3, 3, 4],
             [-1, 7, 8, 7, 9, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [0, 2, 3, 1, 3, -1],
             [-1, 7, 6, 7, 6, 7],
@@ -1698,7 +1698,7 @@ Chordynator.Tab.Chords = [{
             [12, 14, 12, 13, 12, 13]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, 2, 2, 2, 3, 2],
             [-1, 7, -1, 7, 7, 5],
@@ -1706,7 +1706,7 @@ Chordynator.Tab.Chords = [{
             [12, -1, 12, 11, 10, -1]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, -1, 4, 4, 5, 4],
             [0, 2, 2, 1, 0, 2],
@@ -1714,16 +1714,16 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 9, 9, 9, -1]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [0, 3, 0, 1, 1, 2],
             [-1, 7, 6, 7, 7, 8]
         ]
     }]
 }, {
-    root: ["F"],
+    root: ['F'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [1, 3, 3, 2, 1, 1],
             [5, -1, 3, 5, 6, -1],
@@ -1734,7 +1734,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 10, 10, 13]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [1, 3, 3, -1, -1, -1],
             [-1, -1, 3, 5, 6, -1],
@@ -1742,7 +1742,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 10, 13, 13]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [1, 3, -1, 2, 3, -1],
             [-1, -1, 3, 5, 3, 5],
@@ -1750,7 +1750,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 12, 10, 13, -1]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [1, 3, 1, 2, 1, 1],
             [1, 3, -1, 2, 4, -1],
@@ -1760,7 +1760,7 @@ Chordynator.Tab.Chords = [{
             [-1, 8, 10, 10, 10, 11]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [1, -1, 2, 2, 1, -1],
             [-1, -1, 3, 5, 5, 5],
@@ -1768,7 +1768,7 @@ Chordynator.Tab.Chords = [{
             [-1, 8, 10, 9, 10, 8]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [1, 3, 1, 2, 1, 3],
             [-1, 8, 7, 8, 8, 8],
@@ -1776,13 +1776,13 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 13, 12, 13, 13]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [1, 0, 2, 0, 1, -1],
             [-1, 8, 5, 5, 5, 5]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [1, 1, 1, 2, 1, 3],
             [-1, -1, 3, 3, 4, 5],
@@ -1790,19 +1790,19 @@ Chordynator.Tab.Chords = [{
             [-1, 8, 7, 8, 6, 6]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [1, 3, 1, 2, 3, 1],
             [-1, 8, 7, 8, 8, 10],
             [13, -1, 13, 12, 10, 10]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [1, -1, 2, 2, 3, -1]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [1, 3, 3, 1, 1, 1],
             [-1, -1, 3, 5, 6, 4],
@@ -1813,14 +1813,14 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 10, 10, 13, -1]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, -1, 0, 1, 1, 1],
             [-1, -1, 3, 5, 3, 4],
             [-1, 8, -1, 7, 9, 8]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [1, 3, 3, 1, 4, 1],
             [-1, 8, 6, 5, 4, -1],
@@ -1828,31 +1828,31 @@ Chordynator.Tab.Chords = [{
             [-1, 8, 10, 8, 9, 8]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [1, -1, 1, 1, 1, 3],
             [-1, 8, 6, 8, 8, -1]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [1, 1, 1, 1, 1, 1],
             [-1, 8, 6, 8, 8, 6]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [1, 3, 1, 1, 3, 1],
             [-1, 8, 6, 8, 8, 10]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [1, 3, 2, 1, 1, 1],
             [-1, 8, 6, 5, 5, -1]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, -1, 3, 0, 1, 1],
             [-1, -1, 3, 5, 6, 3],
@@ -1860,7 +1860,7 @@ Chordynator.Tab.Chords = [{
             [-1, 8, 10, 10, 8, 8]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [1, 3, 3, 3, 1, 1],
             [-1, -1, 3, 5, 6, 6],
@@ -1868,13 +1868,13 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 10, 11, 13]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [-1, -1, 3, 4, 3, 4],
             [-1, 8, 9, 7, 9, -1]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, -1, 3, 2, 2, 1],
             [-1, 4, -1, 6, 6, 5],
@@ -1882,26 +1882,26 @@ Chordynator.Tab.Chords = [{
             [9, -1, 11, 10, 10, -1]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [1, 3, -1, 2, 3, 3],
             [-1, 5, 5, 5, 6, 5],
             [13, 10, 10, 10, 10, 10]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [1, 3, 1, 3, 1, 1],
             [-1, 8, 10, 8, 11, -1]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [1, -1, 1, 2, 0, -1],
             [-1, 8, 9, 8, 10, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [1, 3, 4, 2, 1, 1],
             [1, 3, 1, 2, 1, 2],
@@ -1911,7 +1911,7 @@ Chordynator.Tab.Chords = [{
             [13, 12, -1, 11, 13, 11]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, 3, 3, 3, 4, 3],
             [-1, 8, -1, 8, 8, 6],
@@ -1919,7 +1919,7 @@ Chordynator.Tab.Chords = [{
             [13, -1, 13, 12, 11, -1]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, -1, 3, 2, 1, 3],
             [-1, -1, 5, 5, 6, 5],
@@ -1927,16 +1927,16 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 10, 10, 10, -1]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [1, -1, 1, 2, 2, 3],
             [-1, 8, 7, 8, 8, 9]
         ]
     }]
 }, {
-    root: ["F#", "Gb"],
+    root: ['F#', 'Gb'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [2, 4, 4, 3, 2, 2],
             [6, -1, 4, 6, 7, -1],
@@ -1946,7 +1946,7 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 11, 11, 11, 9]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [2, 4, 4, -1, -1, -1],
             [-1, -1, 4, 6, 7, -1],
@@ -1954,7 +1954,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 11, 11, 14, 14]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [2, 4, -1, 3, 4, -1],
             [2, -1, 1, 3, 2, -1],
@@ -1962,7 +1962,7 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 11, 11, 11, 11]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, -1, 4, 3, 2, 0],
             [2, 4, 2, 3, 2, 2],
@@ -1972,7 +1972,7 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 11, 9, 11, 9]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [-1, -1, 4, 3, 2, 1],
             [2, -1, 3, 3, 2, -1],
@@ -1980,20 +1980,20 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 11, 10, 11, 9]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [-1, -1, 4, 3, 5, 4],
             [-1, 1, 2, 1, 2, 2],
             [-1, 9, 8, 9, 9, 9]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [2, -1, 3, 3, -1, 4],
             [-1, 9, 6, 6, 6, 6]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [2, 2, 2, 3, 2, 4],
             [-1, -1, 4, 4, 5, 6],
@@ -2001,20 +2001,20 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 8, 9, 7, 7]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, -1, 2, 3, 4, 2],
             [2, -1, 2, 3, 4, 4],
             [2, 4, 2, 3, 4, 2]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [2, 1, 1, 1, 2, 1],
             [-1, 9, -1, 10, 11, 11]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [2, 4, 4, 2, 2, 2],
             [-1, -1, 4, 2, 2, 5],
@@ -2025,7 +2025,7 @@ Chordynator.Tab.Chords = [{
             [-1, 12, 11, 11, 10, -1]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [2, -1, 1, 2, 2, 2],
             [-1, -1, 4, 6, 4, 5],
@@ -2033,7 +2033,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 11, 11, 10, 11]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [2, -1, 2, 2, 2, -1],
             [-1, -1, 4, 6, 5, 5],
@@ -2041,31 +2041,31 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 11, 9, 10, 12]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [2, 0, 2, 1, 2, -1],
             [-1, 9, 7, 9, 9, -1]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [2, 2, 2, 2, 2, 2],
             [-1, 9, 9, 9, 10, 9]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [2, 4, 2, 2, 4, 2],
             [-1, 9, -1, 9, 10, 11]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [2, 4, 3, 2, 2, 2],
             [-1, -1, 4, 6, 6, 5]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [2, -1, -1, 1, 2, 2],
             [-1, -1, 4, 6, 7, 4],
@@ -2073,7 +2073,7 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 11, 11, 9, 9]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [2, 4, 4, 4, 2, 2],
             [-1, -1, 4, 6, 7, 7],
@@ -2081,13 +2081,13 @@ Chordynator.Tab.Chords = [{
             [-1, 9, 9, 11, 12, 9]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [2, -1, 1, 2, 1, -1],
             [-1, 6, 7, 5, 7, -1]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [-1, -1, 0, 3, 3, 2],
             [-1, 5, -1, 7, 7, 6],
@@ -2095,26 +2095,26 @@ Chordynator.Tab.Chords = [{
             [10, -1, 12, 11, 11, -1]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [2, 1, 1, 1, 2, 2],
             [-1, 4, 4, 3, 4, 4],
             [-1, 9, 8, 8, 9, 9]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [2, 4, 2, 4, 2, 2],
             [-1, -1, 4, 6, 5, 7]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [2, -1, 2, 3, 1, -1],
             [8, -1, 8, 9, 7, -1]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [2, 4, 5, 3, 2, 2],
             [2, 4, 2, 3, 2, 3],
@@ -2123,14 +2123,14 @@ Chordynator.Tab.Chords = [{
             [14, 13, -1, 12, 14, 12]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [-1, 4, 4, 4, 5, 4],
             [-1, 9, -1, 9, 9, 7],
             [-1, 9, 9, 9, 9, 9]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [-1, -1, 4, 3, 2, 4],
             [-1, -1, 6, 6, 7, 6],
@@ -2138,16 +2138,16 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 11, 11, 11, -1]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [2, -1, 2, 3, 3, 4],
             [-1, 9, 8, 9, 9, 10]
         ]
     }]
 }, {
-    root: ["G"],
+    root: ['G'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [3, 2, 0, 0, 0, 3],
             [3, 5, 5, 4, 3, 3],
@@ -2158,7 +2158,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 12, 12, 12, 10]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, -1, 0, 0, 3, 3],
             [3, 5, 5, -1, -1, -1],
@@ -2166,7 +2166,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 12, 12, -1, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [3, 2, 0, 0, 0, 0],
             [-1, -1, 5, 4, 3, 0],
@@ -2174,7 +2174,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 12, 12, 12, 12]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [3, 2, 0, 0, 0, 1],
             [3, -1, 3, 4, 3, 0],
@@ -2184,7 +2184,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 12, 10, 12, 10]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [3, 2, 0, 0, 0, 2],
             [-1, -1, 5, 4, 3, 2],
@@ -2192,7 +2192,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 12, 11, 12, 10]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [3, -1, 0, 2, 0, 1],
             [3, -1, 3, 2, 0, 3],
@@ -2200,13 +2200,13 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 9, 10, 10, 10]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [3, -1, 0, 2, 0, 2],
             [-1, 10, 7, 7, 7, 7]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [3, 2, 0, 2, 1, 1],
             [3, 3, 3, 4, 3, 5],
@@ -2214,7 +2214,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 9, 10, 8, 8]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [-1, -1, 3, 0, 0, 0],
             [3, 5, 3, 4, 5, 3],
@@ -2222,13 +2222,13 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 9, 10, 10, 12]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [3, 2, 2, 2, 3, 2],
             [-1, 10, -1, 11, 12, 12]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [3, 1, 0, 0, 3, 3],
             [3, 5, 5, 3, 3, 3],
@@ -2239,7 +2239,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 12, 12, 11, 10]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [-1, -1, 2, 3, 3, 3],
             [3, 5, 5, 3, 5, 3],
@@ -2247,7 +2247,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 12, 9, 11, -1]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [-1, 1, 3, 0, 3, -1],
             [3, -1, 3, 3, 3, -1],
@@ -2255,31 +2255,31 @@ Chordynator.Tab.Chords = [{
             [-1, 10, -1, 10, 11, 10]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [3, -1, 3, 3, 3, 5],
             [-1, 10, 8, 10, 10, -1]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [3, 3, 3, 3, 3, 3],
             [-1, 10, 10, 10, 11, 10]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [3, 5, 3, 3, 5, 3],
             [-1, 10, -1, 10, 11, 12]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [3, 5, 4, 3, 3, 3],
             [-1, 10, 8, 7, 7, -1]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [3, 0, 0, 2, 3, 3],
             [-1, -1, 5, 7, 8, 5],
@@ -2287,20 +2287,20 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 12, 12, 10, 10]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [3, 5, 5, 5, 3, 3],
             [-1, -1, 10, 7, 8, 10],
             [-1, -1, 12, 12, 13, 10]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [3, -1, 2, 3, 2, -1],
             [-1, -1, 5, 6, 5, 6]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [3, 2, 1, 0, 0, 3],
             [3, -1, 5, 4, 4, -1],
@@ -2308,7 +2308,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 9, 8, 8, -1]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [3, 2, 2, 2, 3, 3],
             [3, 5, -1, 4, 5, 5],
@@ -2316,19 +2316,19 @@ Chordynator.Tab.Chords = [{
             [-1, 7, 7, 7, 8, 7]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [3, 5, 3, 5, 3, 3],
             [-1, -1, 5, 7, 6, 8]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [3, -1, 3, 4, 2, -1],
             [-1, -1, 5, 6, 6, 7]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [3, 2, -1, 1, 3, 1],
             [3, 5, 6, 4, 3, 3],
@@ -2339,7 +2339,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 9, 10, 9, 10]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [3, -1, 3, 2, 1, 1],
             [-1, -1, 5, 5, 6, 5],
@@ -2347,7 +2347,7 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 10, 10, 10, 10]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [3, 0, 0, 2, 0, 3],
             [-1, -1, 5, 4, 3, 5],
@@ -2355,16 +2355,16 @@ Chordynator.Tab.Chords = [{
             [-1, 10, 9, 7, 10, 7]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [3, -1, 3, 4, 4, 5],
             [-1, 10, 9, 10, 10, 11]
         ]
     }]
 }, {
-    root: ["G#", "Ab"],
+    root: ['G#', 'Ab'],
     types: [{
-        name: "maj",
+        name: 'M',
         variations: [
             [4, 3, 1, 1, 1, -1],
             [-1, -1, 1, 1, 1, 4],
@@ -2375,7 +2375,7 @@ Chordynator.Tab.Chords = [{
             [-1, -1, 10, 8, 9, 11]
         ]
     }, {
-        name: "5",
+        name: '5',
         variations: [
             [-1, -1, 1, 1, 4, 4],
             [4, 6, 6, -1, -1, -1],
@@ -2383,7 +2383,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 13, 14, -1, -1]
         ]
     }, {
-        name: "6",
+        name: '6',
         variations: [
             [-1, -1, 1, 1, 1, 1],
             [4, 6, -1, 5, 6, 4],
@@ -2391,7 +2391,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 13, 10, 13, -1]
         ]
     }, {
-        name: "7",
+        name: '7',
         variations: [
             [-1, -1, 1, 1, 1, 2],
             [4, 6, 4, 5, 4, 4],
@@ -2401,7 +2401,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 13, 11, 13, 11]
         ]
     }, {
-        name: "maj7",
+        name: 'M7',
         variations: [
             [-1, -1, 1, 1, 1, 3],
             [-1, -1, 6, 5, 4, 3],
@@ -2409,7 +2409,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 10, 8, 8, 8]
         ]
     }, {
-        name: "9",
+        name: '9',
         variations: [
             [4, -1, 4, 3, 1, -1],
             [4, 6, 4, 5, 4, 6],
@@ -2417,13 +2417,13 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 10, 11, 11, 11]
         ]
     }, {
-        name: "maj9",
+        name: 'M9',
         variations: [
             [4, 3, 5, 3, 4, -1],
             [-1, 3, 6, 3, 4, 3]
         ]
     }, {
-        name: "11",
+        name: '11',
         variations: [
             [-1, 3, 1, 1, 2, 2],
             [4, 4, 4, 5, 4, 6],
@@ -2431,7 +2431,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 10, 11, 9, 9]
         ]
     }, {
-        name: "13",
+        name: '13',
         variations: [
             [4, -1, 4, 3, 1, 1],
             [4, -1, 4, 5, 6, -1],
@@ -2439,13 +2439,13 @@ Chordynator.Tab.Chords = [{
             [-1, 11, -1, 11, 13, 13]
         ]
     }, {
-        name: "maj13",
+        name: 'M13',
         variations: [
             [4, 3, 3, 3, 4, 3],
             [-1, 11, -1, 12, 13, 13]
         ]
     }, {
-        name: "min",
+        name: 'm',
         variations: [
             [-1, 2, 1, 1, 4, 4],
             [4, 6, 6, 4, 4, 4],
@@ -2456,7 +2456,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 13, 13, 12, 11]
         ]
     }, {
-        name: "min6",
+        name: 'm6',
         variations: [
             [4, -1, 3, 4, 4, -1],
             [4, 6, 6, 4, 6, 4],
@@ -2464,7 +2464,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, -1, 10, 12, 11]
         ]
     }, {
-        name: "min7",
+        name: 'm7',
         variations: [
             [4, -1, 4, 4, 4, -1],
             [4, 6, 4, 4, 7, 4],
@@ -2472,30 +2472,30 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 13, 11, 12, 11]
         ]
     }, {
-        name: "min9",
+        name: 'm9',
         variations: [
             [-1, 2, 4, 3, 4, 4],
             [4, -1, 4, 4, 4, 6]
         ]
     }, {
-        name: "min11",
+        name: 'm11',
         variations: [
             [4, 4, 4, 4, 4, 4],
             [-1, 11, 11, 11, 12, 11]
         ]
     }, {
-        name: "min13",
+        name: 'm13',
         variations: [
             [4, -1, 4, 4, 6, -1]
         ]
     }, {
-        name: "min(maj7)",
+        name: 'm(M7)',
         variations: [
             [4, 6, 5, 4, 4, 4],
             [-1, -1, 6, 8, 8, 7]
         ]
     }, {
-        name: "sus2",
+        name: 'sus2',
         variations: [
             [-1, 1, 1, 1, 4, 4],
             [-1, -1, 6, 8, 9, 6],
@@ -2503,20 +2503,20 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 13, 13, 11, 11]
         ]
     }, {
-        name: "sus4",
+        name: 'sus4',
         variations: [
             [-1, -1, 1, 1, 2, 4],
             [4, 6, 6, 6, 4, 4],
             [-1, -1, 6, 8, 9, 9]
         ]
     }, {
-        name: "dim",
+        name: '*',
         variations: [
             [4, -1, 3, 4, 3, -1],
             [-1, -1, 6, 7, 6, 7]
         ]
     }, {
-        name: "aug",
+        name: 'aug',
         variations: [
             [0, 3, 2, 1, 1, 0],
             [4, -1, 6, 5, 5, -1],
@@ -2524,7 +2524,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 10, 9, 9, -1]
         ]
     }, {
-        name: "6/9",
+        name: '6/9',
         variations: [
             [4, 3, 3, 3, 4, -1],
             [4, 6, -1, 5, 6, 6],
@@ -2532,19 +2532,19 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 10, 10, 11, 11]
         ]
     }, {
-        name: "7sus4",
+        name: '7sus4',
         variations: [
             [-1, -1, 1, 1, 2, 2],
             [4, 6, 4, 6, 4, 4]
         ]
     }, {
-        name: "7b5",
+        name: '7b5',
         variations: [
             [4, -1, 4, 5, 3, -1],
             [-1, -1, 6, 7, 7, 8]
         ]
     }, {
-        name: "7b9",
+        name: '7b9',
         variations: [
             [4, 3, -1, 2, 4, 2],
             [4, 6, 7, 5, 4, 4],
@@ -2552,7 +2552,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 10, 11, 10, -1]
         ]
     }, {
-        name: "9sus4",
+        name: '9sus4',
         variations: [
             [4, -1, 4, 3, 2, -1],
             [-1, 6, 6, 6, 7, 6],
@@ -2560,7 +2560,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 11, 11, 11, 11]
         ]
     }, {
-        name: "add9",
+        name: 'add9',
         variations: [
             [4, 3, 1, 3, 1, -1],
             [-1, -1, 6, 5, 4, 6],
@@ -2568,7 +2568,7 @@ Chordynator.Tab.Chords = [{
             [-1, 11, 10, 8, 11, -1]
         ]
     }, {
-        name: "aug9",
+        name: 'aug9',
         variations: [
             [4, 3, 4, 3, 5, -1],
             [4, -1, 4, 5, 5, 6]

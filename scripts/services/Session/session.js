@@ -3,7 +3,7 @@ var Session = (function(me){
     var id = 0;
     var name = 'test user';
     var email = 'test@user.com';
-    var chordynator = { maps:["C"], tabs:["C"] };
+    var chordynator = { maps:["C"], tabs:[] };
 
     // exports
     me.id = id;

@@ -1,0 +1,25 @@
+<svg class="tab" name="{{name}}" type="{{type}}" variation="{{current_variation}}" variations="{{total_variations}}" viewBox="0 0 100 50" version="1.1">
+
+    <!-- Name -->
+    <text x="10" y="10">
+        <tspan class="name">{{name}}</tspan><tspan class="type">{{type}}</tspan>
+        <tspan class="bar">|</tspan>
+        <tspan class="current_variation">{{current_variation}}</tspan> <tspan class="of">of</tspan> <tspan class="total_variations">{{total_variations}}</tspan>
+    </text>
+
+    <!-- New Tab -->
+    <image class="deleteTab" onclick="Chordynator.Tab.deleteTab(this)" x="80" y="3" width="8" height="8" xlink:href="http://localhost:8080/Chordynator/gfx/x.svg" />
+
+    <!-- strings -->
+    {{#strings tab}}{{/strings}}
+
+    <!-- frets -->
+    {{#frets fretLength}}{{/frets}}
+
+    <!-- fingering -->
+    {{#tabs tab fretLength firstFret}}{{/tabs}}
+
+    <!-- Fretnumber -->
+    {{#fretStart fretLength firstFret}}{{/fretStart}}
+
+</svg>

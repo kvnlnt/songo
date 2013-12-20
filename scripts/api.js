@@ -5,8 +5,6 @@ var API = (function(api){
 
         // load widgets
         Chordynator.load();
-        Wordynator.load();
-        Tabynator.load();
 
     }
 
